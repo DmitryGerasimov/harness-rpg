@@ -1,0 +1,223 @@
+{
+ "mcp": {
+  "claude_ai_Linear": {
+   "alias": "Кольцо замыслов",
+   "families": {},
+   "slot": "ring",
+   "split_checked": true
+  },
+  "claude_ai_Notion": {
+   "alias": "Фолиант заметок",
+   "slot": "grimoire"
+  },
+  "claude_ai_Slack": {
+   "alias": "Рог вестового",
+   "slot": "horn"
+  },
+  "figma": {
+   "alias": "Палитра зодчего",
+   "name": "Figma",
+   "slot": "bag"
+  },
+  "google_workspace": {
+   "families": {
+    "calendar": {
+     "alias": "Песочные часы",
+     "name": "Google Workspace Calendar",
+     "prefixes": [
+      "calendar"
+     ],
+     "slot": "bag"
+    },
+    "files": {
+     "alias": "Плащ странника",
+     "name": "Google Workspace Drive",
+     "prefixes": [
+      "drive"
+     ],
+     "slot": "cloak"
+    },
+    "mail": {
+     "alias": "Голубиная почта",
+     "name": "Google Workspace Mail",
+     "prefixes": [
+      "gmail"
+     ],
+     "slot": "horn"
+    }
+   },
+   "name": "Google Workspace",
+   "split_checked": true
+  },
+  "plugin_context7_context7": {
+   "alias": "Свиток справок",
+   "slot": "grimoire"
+  },
+  "plugin_github_github": {
+   "alias": "Латные перчатки",
+   "families": {},
+   "name": "GitHub",
+   "slot": "gloves",
+   "split_checked": true
+  },
+  "plugin_playwright_playwright": {
+   "alias": "Сапоги лазутчика",
+   "name": "Playwright",
+   "slot": "boots"
+  },
+  "postgres": {
+   "alias": "Амулет глубин",
+   "name": "PostgreSQL",
+   "slot": "amulet"
+  },
+  "sentry": {
+   "alias": "Шлем часового",
+   "families": {},
+   "name": "Sentry",
+   "slot": "helmet",
+   "split_checked": true
+  }
+ },
+ "skills": {
+  "brainstorming": {
+   "alias": "Круг замыслов",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "claude-api": {
+   "alias": "Связь с оракулом",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "code-review": {
+   "alias": "Взгляд оружейника",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "commit": {
+   "alias": "Клеймо мастера",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "commit-push-pr": {
+   "alias": "Отправка обоза",
+   "school": "engineer",
+   "school_rules": 2
+  },
+  "deploy": {
+   "alias": "Поднятие знамени",
+   "school": "engineer",
+   "school_rules": 2
+  },
+  "docx": {
+   "alias": "Переписчик грамот",
+   "school": "bard",
+   "school_rules": 2
+  },
+  "executing-plans": {
+   "alias": "Поход по карте",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "feature-dev": {
+   "alias": "Ковка новинки",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "frontend-design": {
+   "alias": "Резьба по фасаду",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "loop": {
+   "alias": "Вечный караул",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "mcp-builder": {
+   "alias": "Сотворение артефактов",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "mobile-release": {
+   "alias": "Караван в лавки",
+   "school": "engineer",
+   "school_rules": 2
+  },
+  "pdf": {
+   "alias": "Чтение пергаментов",
+   "school": "bard",
+   "school_rules": 2
+  },
+  "pptx": {
+   "alias": "Живые гобелены",
+   "school": "bard",
+   "school_rules": 2
+  },
+  "requesting-code-review": {
+   "alias": "Суд мастеров",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "simplify": {
+   "alias": "Шлифовка клинка",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "skill-creator": {
+   "alias": "Создатель приёмов",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "standup": {
+   "alias": "Утренний сбор",
+   "school": "bard",
+   "school_rules": 2
+  },
+  "subagent-driven-development": {
+   "alias": "Свита исполнителей",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "systematic-debugging": {
+   "alias": "Охота на сбой",
+   "school": "ranger",
+   "school_rules": 2
+  },
+  "test-driven-development": {
+   "alias": "Испытание до ковки",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "trip-planner": {
+   "alias": "Карта странствий",
+   "school": "wanderer",
+   "school_rules": 2
+  },
+  "update-config": {
+   "alias": "Настройка шатра",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "using-git-worktrees": {
+   "alias": "Параллельные мастерские",
+   "school": "engineer",
+   "school_rules": 2
+  },
+  "webapp-testing": {
+   "alias": "Пробный штурм",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "writing-plans": {
+   "alias": "Карта похода",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "xlsx": {
+   "alias": "Таблицы алхимика",
+   "school": "alchemist",
+   "school_rules": 2
+  }
+ }
+}

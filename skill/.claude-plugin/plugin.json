@@ -1,0 +1,13 @@
+{
+  "name": "harness-rpg",
+  "version": "0.1.0",
+  "description": "Turns your Claude Code history into a pixel-art RPG hero: level, class, attributes, talents (skills), gear (MCP servers), auras (hooks), achievements and a treasury (tokens), with an archive of past snapshots and an insights mode about your real work.",
+  "author": {
+    "name": "Dmitry Gerasimov",
+    "url": "https://github.com/DmitryGerasimov"
+  },
+  "homepage": "https://dmitrygerasimov.github.io/harness-rpg/",
+  "repository": "https://github.com/DmitryGerasimov/harness-rpg",
+  "license": "MIT",
+  "keywords": ["rpg", "pixel-art", "gamification", "insights", "usage", "character-sheet"]
+}

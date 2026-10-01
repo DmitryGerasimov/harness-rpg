@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in harness-rpg fails or shows the wrong thing
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Don't attach `character.html`, `history.json` or `ledger.json`, and don't paste the insights mode.**
+        They hold the real names of your projects, skills, MCP servers and hooks. A game-mode screenshot is safe.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The output of `rpg.py --version`
+      placeholder: harness-rpg 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: Installed as
+      options:
+        - Plugin
+        - Skill folder from the release zip
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, `python3 --version`, `claude --version`, and terminal or desktop app
+      placeholder: macOS 15, Python 3.9.6, Claude Code 2.1.285, desktop app
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you asked, what you expected and what you got
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output of the failing command
+      description: Remove any names you don't want to share
+      render: text

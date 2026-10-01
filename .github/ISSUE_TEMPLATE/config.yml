@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Live demo
+    url: https://dmitrygerasimov.github.io/harness-rpg/
+    about: See what the hero page looks like before reporting how it looks

@@ -1,0 +1,67 @@
+name: release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # The tag names the release; the package and the plugin manifest carry the same version.
+      - name: Check version
+        run: |
+          version=$(python3 -B -c 'import sys; sys.path.insert(0, "skill/scripts"); import harness_rpg; print(harness_rpg.__version__)')
+          if [ "v$version" != "$GITHUB_REF_NAME" ]; then
+            echo "tag $GITHUB_REF_NAME does not match version $version in skill/scripts/harness_rpg/__init__.py"
+            exit 1
+          fi
+
+      - name: Test
+        run: python3 -m unittest discover -s tests -t .
+
+      # The skill is skill/ plus the license, under a single harness-rpg/ folder; the tests live outside it.
+      - name: Build archive
+        run: |
+          mkdir dist
+          git archive --format=zip --prefix=harness-rpg/ --add-file=LICENSE -o dist/harness-rpg.zip HEAD:skill
+          # The plugin manifest is for the marketplace install; the archive is the other way in.
+          zip -d dist/harness-rpg.zip 'harness-rpg/.claude-plugin/*'
+          unzip -l dist/harness-rpg.zip
+
+      - name: Smoke-test archive
+        run: |
+          tmp=$(mktemp -d)
+          unzip -q dist/harness-rpg.zip -d "$tmp/skills"
+          cp -R data "$tmp/home"
+          python3 "$tmp/skills/harness-rpg/scripts/rpg.py" --home "$tmp/home" render
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat > notes.md <<EOF
+          ## Install
+
+          As a plugin, in Claude Code:
+
+          \`\`\`
+          /plugin install harness-rpg --marketplace $GITHUB_REPOSITORY
+          \`\`\`
+
+          Or as a skill folder:
+
+          \`\`\`bash
+          curl -fsSL https://github.com/$GITHUB_REPOSITORY/releases/download/$GITHUB_REF_NAME/harness-rpg.zip -o /tmp/harness-rpg.zip
+          rm -rf ~/.claude/skills/harness-rpg && unzip -q /tmp/harness-rpg.zip -d ~/.claude/skills/
+          \`\`\`
+
+          The hero's data lives in \`~/.harness-rpg/\` and survives updates.
+          EOF
+          gh release create "$GITHUB_REF_NAME" dist/harness-rpg.zip \
+            --title "harness-rpg $GITHUB_REF_NAME" --notes-file notes.md --generate-notes

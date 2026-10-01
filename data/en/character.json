@@ -1,0 +1,1784 @@
+{
+ "achievements": [
+  {
+   "criteria": [
+    "survive 1 memory compression in one quest and keep going",
+    "survive 3 memory compressions in one quest and keep going",
+    "survive 6 memory compressions in one quest and keep going"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "phoenix",
+   "name": "Phoenix",
+   "record_day": "2026-09-06",
+   "thresholds": [
+    1,
+    3,
+    6
+   ],
+   "tier": 1,
+   "tier_name": "silver",
+   "value": 4,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "go through a quest of 30 actions without a single error",
+    "go through a quest of 150 actions without a single error",
+    "go through a quest of 400 actions without a single error"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "flawless",
+   "name": "Flawless",
+   "record_day": "2026-08-25",
+   "thresholds": [
+    30,
+    150,
+    400
+   ],
+   "tier": 0,
+   "tier_name": "bronze",
+   "value": 91,
+   "value_tier": 0
+  },
+  {
+   "criteria": [
+    "summon 2 companions in one quest",
+    "summon 10 companions in one quest",
+    "summon 25 companions in one quest"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-09T23:05:00+03:00",
+   "key": "warlord",
+   "name": "Warlord",
+   "record_day": "2026-09-18",
+   "thresholds": [
+    2,
+    10,
+    25
+   ],
+   "tier": 1,
+   "tier_name": "silver",
+   "value": 14,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "work 1 hour in a row — no pauses longer than 10 minutes",
+    "work 2 hours in a row — no pauses longer than 10 minutes",
+    "work 4 hours in a row — no pauses longer than 10 minutes"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "marathon",
+   "name": "Marathoner",
+   "record_day": "2026-09-16",
+   "thresholds": [
+    1,
+    2,
+    4
+   ],
+   "tier": 2,
+   "tier_name": "gold",
+   "value": 8.78,
+   "value_tier": 2
+  },
+  {
+   "criteria": [
+    "spend 1 hour at work in one quest — pauses longer than 10 minutes do not count",
+    "spend 6 hours at work in one quest — pauses longer than 10 minutes do not count",
+    "spend 12 hours at work in one quest — pauses longer than 10 minutes do not count"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "trek",
+   "name": "Long Trek",
+   "record_day": "2026-09-16",
+   "thresholds": [
+    1,
+    6,
+    12
+   ],
+   "tier": 1,
+   "tier_name": "silver",
+   "value": 10.37,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "work 3 days in a row",
+    "work 30 days in a row",
+    "work 90 days in a row"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-22T22:15:00+03:00",
+   "key": "tireless",
+   "name": "Tireless",
+   "record_day": "2026-10-01",
+   "thresholds": [
+    3,
+    30,
+    90
+   ],
+   "tier": 1,
+   "tier_name": "silver",
+   "value": 39,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "use the talents of 2 different schools in one day",
+    "use the talents of 5 different schools in one day",
+    "use the talents of 7 different schools in one day"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "versatile",
+   "name": "Jack of All Trades",
+   "record_day": "2026-09-29",
+   "thresholds": [
+    2,
+    5,
+    7
+   ],
+   "tier": 1,
+   "tier_name": "silver",
+   "value": 6,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "make a plan first and only then act, in 5 quests",
+    "make a plan first and only then act, in 50 quests",
+    "make a plan first and only then act, in 200 quests"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-22T22:15:00+03:00",
+   "key": "strategist",
+   "name": "Strategist",
+   "record_day": null,
+   "thresholds": [
+    5,
+    50,
+    200
+   ],
+   "tier": 1,
+   "tier_name": "silver",
+   "value": 75,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "edit files of 3 different types",
+    "edit files of 12 different types",
+    "edit files of 25 different types"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "polyglot",
+   "name": "Polyglot",
+   "record_day": null,
+   "thresholds": [
+    3,
+    12,
+    25
+   ],
+   "tier": 1,
+   "tier_name": "silver",
+   "value": 19,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "work in 3 different places",
+    "work in 15 different places",
+    "work in 40 different places"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "explorer",
+   "name": "Worldwalker",
+   "record_day": null,
+   "thresholds": [
+    3,
+    15,
+    40
+   ],
+   "tier": 0,
+   "tier_name": "bronze",
+   "value": 9,
+   "value_tier": 0
+  },
+  {
+   "criteria": [
+    "work deep at night, from midnight to 5 a.m., on 1 night",
+    "work deep at night, from midnight to 5 a.m., on 10 nights",
+    "work deep at night, from midnight to 5 a.m., on 30 nights"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-22T22:15:00+03:00",
+   "key": "night_owl",
+   "name": "Night Owl",
+   "record_day": null,
+   "thresholds": [
+    1,
+    10,
+    30
+   ],
+   "tier": 1,
+   "tier_name": "silver",
+   "value": 17,
+   "value_tier": 1
+  }
+ ],
+ "alignment": {
+  "desc": "a kind wanderer: guards the world without needless charters",
+  "details": {
+   "destructive": 3,
+   "evil_share": 0.016,
+   "good_share": 0.487,
+   "law_score": 0.468,
+   "modes": {
+    "acceptEdits": 59,
+    "auto": 35,
+    "bypassPermissions": 7,
+    "default": 74,
+    "plan": 18
+   },
+   "moral_score": 0.44,
+   "plan_share": 0.244,
+   "questions": 54,
+   "rules_lines": 24,
+   "sessions": 193,
+   "strictness": 0.72,
+   "verifications": 778
+  },
+  "law": "neutral",
+  "moral": "good",
+  "name": "Neutral good"
+ },
+ "attributes": [
+  {
+   "abbr": "STR",
+   "desc": "how much work the hero carries in one go",
+   "key": "str",
+   "metrics": [
+    {
+     "label": "edits in a typical session with edits",
+     "score": 12.7,
+     "value": "8"
+    },
+    {
+     "label": "sessions with edits",
+     "score": null,
+     "value": "125 of 193"
+    }
+   ],
+   "name": "Strength",
+   "rule": "how many edits (Edit, Write) in a typical session with edits; 5 edits score 10.5 of 20",
+   "value": 13
+  },
+  {
+   "abbr": "DEX",
+   "desc": "precision: actions and edits without a miss",
+   "key": "dex",
+   "metrics": [
+    {
+     "label": "calls without errors",
+     "score": 16.1,
+     "value": "96.9% of 18,812"
+    },
+    {
+     "label": "edits right the first time",
+     "score": 17.0,
+     "value": "97.6% of 2,501"
+    }
+   ],
+   "name": "Dexterity",
+   "rule": "the mean of two scores: the share of calls without errors and the share of edits right the first time; 85% scores 1 of 20, 100% scores 20",
+   "value": 17
+  },
+  {
+   "abbr": "CON",
+   "desc": "long quests and runs of days without a break",
+   "key": "con",
+   "metrics": [
+    {
+     "label": "the longest 10% of sessions",
+     "score": 10.4,
+     "value": "from 1.5 h"
+    },
+    {
+     "label": "compactions",
+     "score": 18.3,
+     "value": "30"
+    },
+    {
+     "label": "current run of days",
+     "score": 17.1,
+     "value": "39"
+    }
+   ],
+   "name": "Constitution",
+   "rule": "the mean of three scores: the length of the longest 10% of sessions (1.5 h score 10.5 of 20), compactions (3 — 10.5), the current run of days (7 — 10.5)",
+   "value": 15
+  },
+  {
+   "abbr": "INT",
+   "desc": "the breadth of the arsenal and a thirst for knowledge",
+   "key": "int",
+   "metrics": [
+    {
+     "label": "different tools, skills and MCP in use",
+     "score": 14.2,
+     "value": "46 = 14 + 22 + 10"
+    },
+    {
+     "label": "doc lookups per session",
+     "score": 14.2,
+     "value": "2.26"
+    }
+   ],
+   "name": "Intelligence",
+   "rule": "the mean of two scores: different tools, skills and MCP in use (20 score 10.5 of 20) and doc lookups per session (1 — 10.5)",
+   "value": 14
+  },
+  {
+   "abbr": "WIS",
+   "desc": "independence and well-weighed decisions",
+   "key": "wis",
+   "metrics": [
+    {
+     "label": "actions per turn in a typical session",
+     "score": 13.4,
+     "value": "15.0"
+    },
+    {
+     "label": "interrupts and denials per turn",
+     "score": 14.8,
+     "value": "0.08"
+    },
+    {
+     "label": "sessions with plan mode",
+     "score": 11.4,
+     "value": "24%"
+    }
+   ],
+   "name": "Wisdom",
+   "rule": "the mean of three scores: actions per turn (8 score 10.5 of 20), interrupts and denials per turn (0 — 20, 0.3 or more — 1), the share of sessions with plan mode (20% — 10.5)",
+   "value": 13
+  },
+  {
+   "abbr": "CHA",
+   "desc": "influence on the world beyond the code",
+   "key": "cha",
+   "metrics": [
+    {
+     "label": "commits, PRs, outbound MCP calls",
+     "score": null,
+     "value": "75, 10, 86"
+    },
+    {
+     "label": "actions per active day",
+     "score": 13.3,
+     "value": "5.5 over 31 days"
+    }
+   ],
+   "name": "Charisma",
+   "rule": "commits, PRs and outbound MCP calls per active day; 3 score 10.5 of 20",
+   "value": 13
+  }
+ ],
+ "auras": [
+  {
+   "effect": "no finished deed goes without news",
+   "events": {
+    "Stop": 1735
+   },
+   "hooks": {
+    "notify.sh": 1735
+   },
+   "key": "herald",
+   "last_day": "2026-10-01",
+   "name": "Aura of the Messenger",
+   "next_tier": null,
+   "sessions": 193,
+   "share": 1.0,
+   "tier": 4,
+   "tier_name": "Radiant",
+   "window": 193
+  },
+  {
+   "effect": "every quest begins with a blessing",
+   "events": {
+    "SessionStart": 125
+   },
+   "hooks": {
+    "load-context.sh": 125
+   },
+   "key": "dawn",
+   "last_day": "2026-10-01",
+   "name": "Aura of Dawn",
+   "next_tier": {
+    "at": 0.9,
+    "name": "Radiant"
+   },
+   "sessions": 125,
+   "share": 0.648,
+   "tier": 3,
+   "tier_name": "Bright",
+   "window": 193
+  },
+  {
+   "effect": "after every action the result is polished to a shine",
+   "events": {
+    "PostToolUse": 3025
+   },
+   "hooks": {
+    "format.sh": 3025
+   },
+   "key": "temper",
+   "last_day": "2026-10-01",
+   "name": "Aura of Tempering",
+   "next_tier": {
+    "at": 0.9,
+    "name": "Radiant"
+   },
+   "sessions": 124,
+   "share": 0.642,
+   "tier": 3,
+   "tier_name": "Bright",
+   "window": 193
+  },
+  {
+   "effect": "every action is checked before the blow",
+   "events": {
+    "PreToolUse": 1374
+   },
+   "hooks": {
+    "guard-bash.sh": 1374
+   },
+   "key": "guard",
+   "last_day": "2026-10-01",
+   "name": "Aura of the Guard",
+   "next_tier": {
+    "at": 0.3,
+    "name": "Steady"
+   },
+   "sessions": 55,
+   "share": 0.285,
+   "tier": 1,
+   "tier_name": "Smoldering",
+   "window": 193
+  }
+ ],
+ "class": {
+  "basis": "current",
+  "epithet": "Thoroughbred Smith",
+  "lore": "forges code: features, refactoring, tests",
+  "name": "Smith",
+  "primary": "smith",
+  "secondary": null,
+  "weights": {
+   "alchemist": 3.14,
+   "bard": 15.06,
+   "engineer": 19.99,
+   "ranger": 19.56,
+   "smith": 71.58,
+   "summoner": 28.58,
+   "wanderer": 1.19
+  }
+ },
+ "gear": [
+  {
+   "affixes": 11,
+   "alias": "Plate Gauntlets",
+   "calls": 414,
+   "equipped": true,
+   "first_day": "2026-08-04",
+   "known": true,
+   "last_day": "2026-10-01",
+   "name": "GitHub",
+   "next_rarity": null,
+   "peak_day": "2026-09-30",
+   "peak_rarity": "legendary",
+   "peak_rarity_name": "legendary",
+   "peak_score": 50.61,
+   "rarity": "legendary",
+   "rarity_name": "legendary",
+   "score": 50.46,
+   "servers": [
+    "plugin_github_github"
+   ],
+   "sessions": 90,
+   "slot": "gloves",
+   "tools": [
+    {
+     "calls": 87,
+     "name": "search_code"
+    },
+    {
+     "calls": 82,
+     "name": "get_file_contents"
+    },
+    {
+     "calls": 37,
+     "name": "get_pull_request"
+    },
+    {
+     "calls": 37,
+     "name": "list_pull_requests"
+    },
+    {
+     "calls": 31,
+     "name": "list_workflow_runs"
+    },
+    {
+     "calls": 30,
+     "name": "get_issue"
+    },
+    {
+     "calls": 30,
+     "name": "get_workflow_run_logs"
+    },
+    {
+     "calls": 27,
+     "name": "list_commits"
+    },
+    {
+     "calls": 26,
+     "name": "list_issues"
+    },
+    {
+     "calls": 14,
+     "name": "add_issue_comment"
+    },
+    {
+     "calls": 13,
+     "name": "create_pull_request"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 6,
+   "alias": "Ring of Designs",
+   "calls": 265,
+   "equipped": true,
+   "first_day": "2026-08-05",
+   "known": true,
+   "last_day": "2026-10-01",
+   "name": "Linear",
+   "next_rarity": {
+    "at": 45,
+    "name": "legendary"
+   },
+   "peak_day": "2026-09-15",
+   "peak_rarity": "epic",
+   "peak_rarity_name": "epic",
+   "peak_score": 23.82,
+   "rarity": "epic",
+   "rarity_name": "epic",
+   "score": 22.03,
+   "servers": [
+    "claude_ai_Linear"
+   ],
+   "sessions": 42,
+   "slot": "ring",
+   "tools": [
+    {
+     "calls": 88,
+     "name": "get_issue"
+    },
+    {
+     "calls": 77,
+     "name": "list_issues"
+    },
+    {
+     "calls": 43,
+     "name": "update_issue"
+    },
+    {
+     "calls": 27,
+     "name": "create_comment"
+    },
+    {
+     "calls": 19,
+     "name": "list_projects"
+    },
+    {
+     "calls": 11,
+     "name": "create_issue"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 5,
+   "alias": "Amulet of the Deep",
+   "calls": 104,
+   "equipped": true,
+   "first_day": "2026-08-07",
+   "known": true,
+   "last_day": "2026-10-01",
+   "name": "PostgreSQL",
+   "next_rarity": {
+    "at": 20,
+    "name": "epic"
+   },
+   "peak_day": "2026-10-01",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "rare",
+   "peak_score": 15.35,
+   "rarity": "rare",
+   "rarity_name": "rare",
+   "score": 15.35,
+   "servers": [
+    "postgres"
+   ],
+   "sessions": 26,
+   "slot": "amulet",
+   "tools": [
+    {
+     "calls": 56,
+     "name": "execute_sql"
+    },
+    {
+     "calls": 17,
+     "name": "list_objects"
+    },
+    {
+     "calls": 13,
+     "name": "explain_query"
+    },
+    {
+     "calls": 13,
+     "name": "get_object_details"
+    },
+    {
+     "calls": 5,
+     "name": "list_schemas"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 4,
+   "alias": "Tome of Notes",
+   "calls": 92,
+   "equipped": true,
+   "first_day": "2026-08-06",
+   "known": true,
+   "last_day": "2026-09-30",
+   "name": "Notion",
+   "next_rarity": {
+    "at": 20,
+    "name": "epic"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "rare",
+   "peak_score": 15.38,
+   "rarity": "rare",
+   "rarity_name": "rare",
+   "score": 15.03,
+   "servers": [
+    "claude_ai_Notion"
+   ],
+   "sessions": 24,
+   "slot": "grimoire",
+   "tools": [
+    {
+     "calls": 41,
+     "name": "notion-fetch"
+    },
+    {
+     "calls": 26,
+     "name": "notion-search"
+    },
+    {
+     "calls": 14,
+     "name": "notion-update-page"
+    },
+    {
+     "calls": 11,
+     "name": "notion-create-pages"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 7,
+   "alias": "Boots of the Scout",
+   "calls": 100,
+   "equipped": true,
+   "first_day": "2026-08-05",
+   "known": true,
+   "last_day": "2026-09-29",
+   "name": "Playwright",
+   "next_rarity": {
+    "at": 20,
+    "name": "epic"
+   },
+   "peak_day": "2026-09-23",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "rare",
+   "peak_score": 15.68,
+   "rarity": "rare",
+   "rarity_name": "rare",
+   "score": 14.92,
+   "servers": [
+    "plugin_playwright_playwright"
+   ],
+   "sessions": 26,
+   "slot": "boots",
+   "tools": [
+    {
+     "calls": 25,
+     "name": "browser_navigate"
+    },
+    {
+     "calls": 19,
+     "name": "browser_snapshot"
+    },
+    {
+     "calls": 16,
+     "name": "browser_take_screenshot"
+    },
+    {
+     "calls": 13,
+     "name": "browser_type"
+    },
+    {
+     "calls": 11,
+     "name": "browser_click"
+    },
+    {
+     "calls": 10,
+     "name": "browser_console_messages"
+    },
+    {
+     "calls": 6,
+     "name": "browser_evaluate"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 5,
+   "alias": "Helm of the Watchman",
+   "calls": 70,
+   "equipped": true,
+   "first_day": "2026-08-06",
+   "known": true,
+   "last_day": "2026-09-29",
+   "name": "Sentry",
+   "next_rarity": {
+    "at": 20,
+    "name": "epic"
+   },
+   "peak_day": "2026-09-24",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "rare",
+   "peak_score": 11.99,
+   "rarity": "rare",
+   "rarity_name": "rare",
+   "score": 11.15,
+   "servers": [
+    "sentry"
+   ],
+   "sessions": 19,
+   "slot": "helmet",
+   "tools": [
+    {
+     "calls": 24,
+     "name": "search_issues"
+    },
+    {
+     "calls": 23,
+     "name": "get_issue_details"
+    },
+    {
+     "calls": 8,
+     "name": "find_releases"
+    },
+    {
+     "calls": 8,
+     "name": "get_trace_details"
+    },
+    {
+     "calls": 7,
+     "name": "search_events"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 4,
+   "alias": "Horn of the Courier",
+   "calls": 69,
+   "equipped": true,
+   "first_day": "2026-08-05",
+   "known": true,
+   "last_day": "2026-09-30",
+   "name": "Slack",
+   "next_rarity": {
+    "at": 20,
+    "name": "epic"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "rare",
+   "peak_score": 10.42,
+   "rarity": "rare",
+   "rarity_name": "rare",
+   "score": 10.18,
+   "servers": [
+    "claude_ai_Slack"
+   ],
+   "sessions": 17,
+   "slot": "horn",
+   "tools": [
+    {
+     "calls": 24,
+     "name": "slack_search_public"
+    },
+    {
+     "calls": 20,
+     "name": "slack_read_thread"
+    },
+    {
+     "calls": 17,
+     "name": "slack_read_channel"
+    },
+    {
+     "calls": 8,
+     "name": "slack_send_message"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 2,
+   "alias": "Scroll of Lore",
+   "calls": 67,
+   "equipped": false,
+   "first_day": "2026-08-04",
+   "known": true,
+   "last_day": "2026-09-30",
+   "name": "context7",
+   "next_rarity": {
+    "at": 20,
+    "name": "epic"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "rare",
+   "peak_score": 8.81,
+   "rarity": "rare",
+   "rarity_name": "rare",
+   "score": 8.61,
+   "servers": [
+    "plugin_context7_context7"
+   ],
+   "sessions": 14,
+   "slot": "grimoire",
+   "tools": [
+    {
+     "calls": 52,
+     "name": "query-docs"
+    },
+    {
+     "calls": 15,
+     "name": "resolve-library-id"
+    }
+   ],
+   "worn_instead": "Notion"
+  },
+  {
+   "affixes": 3,
+   "alias": "Carrier Pigeon",
+   "calls": 31,
+   "equipped": false,
+   "first_day": "2026-08-13",
+   "known": true,
+   "last_day": "2026-09-29",
+   "name": "Google Workspace Mail",
+   "next_rarity": {
+    "at": 8,
+    "name": "rare"
+   },
+   "peak_day": "2026-09-29",
+   "peak_rarity": "uncommon",
+   "peak_rarity_name": "uncommon",
+   "peak_score": 7.4,
+   "rarity": "uncommon",
+   "rarity_name": "uncommon",
+   "score": 7.07,
+   "servers": [
+    "google_workspace"
+   ],
+   "sessions": 11,
+   "slot": "horn",
+   "tools": [
+    {
+     "calls": 18,
+     "name": "gmail_get_message"
+    },
+    {
+     "calls": 9,
+     "name": "gmail_search_messages"
+    },
+    {
+     "calls": 4,
+     "name": "gmail_send_message"
+    }
+   ],
+   "worn_instead": "Slack"
+  },
+  {
+   "affixes": 4,
+   "alias": "Palette of the Architect",
+   "calls": 51,
+   "equipped": false,
+   "first_day": "2026-09-11",
+   "known": true,
+   "last_day": "2026-09-30",
+   "name": "Figma",
+   "next_rarity": {
+    "at": 8,
+    "name": "rare"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rarity": "uncommon",
+   "peak_rarity_name": "uncommon",
+   "peak_score": 6.83,
+   "rarity": "uncommon",
+   "rarity_name": "uncommon",
+   "score": 6.67,
+   "servers": [
+    "figma"
+   ],
+   "sessions": 8,
+   "slot": "bag",
+   "tools": [
+    {
+     "calls": 25,
+     "name": "get_design_context"
+    },
+    {
+     "calls": 11,
+     "name": "get_screenshot"
+    },
+    {
+     "calls": 9,
+     "name": "get_metadata"
+    },
+    {
+     "calls": 6,
+     "name": "get_variable_defs"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 2,
+   "alias": "Cloak of the Wanderer",
+   "calls": 7,
+   "equipped": true,
+   "first_day": "2026-08-13",
+   "known": true,
+   "last_day": "2026-09-29",
+   "name": "Google Workspace Drive",
+   "next_rarity": {
+    "at": 8,
+    "name": "rare"
+   },
+   "peak_day": "2026-09-29",
+   "peak_rarity": "uncommon",
+   "peak_rarity_name": "uncommon",
+   "peak_score": 4.1,
+   "rarity": "uncommon",
+   "rarity_name": "uncommon",
+   "score": 3.91,
+   "servers": [
+    "google_workspace"
+   ],
+   "sessions": 6,
+   "slot": "cloak",
+   "tools": [
+    {
+     "calls": 4,
+     "name": "drive_search_files"
+    },
+    {
+     "calls": 3,
+     "name": "drive_read_file"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 2,
+   "alias": "Hourglass",
+   "calls": 9,
+   "equipped": false,
+   "first_day": "2026-08-21",
+   "known": true,
+   "last_day": "2026-09-25",
+   "name": "Google Workspace Calendar",
+   "next_rarity": {
+    "at": 8,
+    "name": "rare"
+   },
+   "peak_day": "2026-09-25",
+   "peak_rarity": "uncommon",
+   "peak_rarity_name": "uncommon",
+   "peak_score": 3.45,
+   "rarity": "uncommon",
+   "rarity_name": "uncommon",
+   "score": 3.0,
+   "servers": [
+    "google_workspace"
+   ],
+   "sessions": 5,
+   "slot": "bag",
+   "tools": [
+    {
+     "calls": 6,
+     "name": "calendar_list_events"
+    },
+    {
+     "calls": 3,
+     "name": "calendar_create_event"
+    }
+   ],
+   "worn_instead": null
+  }
+ ],
+ "generated_at": "2026-10-01T12:40:00+03:00",
+ "hero": {
+  "name": "Claude Code"
+ },
+ "lang": "en",
+ "level": {
+  "counted_turns": 1532,
+  "into": 606,
+  "level": 18,
+  "need": 1076,
+  "xp": 7114,
+  "xp_parts": {
+   "days": 1100,
+   "sessions": 2950,
+   "turns": 3064
+  }
+ },
+ "ranks": [
+  "Novice",
+  "Apprentice",
+  "Journeyman",
+  "Adept",
+  "Expert",
+  "Master",
+  "Grandmaster"
+ ],
+ "rarities": [
+  {
+   "key": "common",
+   "name": "common"
+  },
+  {
+   "key": "uncommon",
+   "name": "uncommon"
+  },
+  {
+   "key": "rare",
+   "name": "rare"
+  },
+  {
+   "key": "epic",
+   "name": "epic"
+  },
+  {
+   "key": "legendary",
+   "name": "legendary"
+  }
+ ],
+ "schools": {
+  "alchemist": {
+   "desc": "distills meaning from data: queries, samples, analytics",
+   "name": "Alchemist"
+  },
+  "bard": {
+   "desc": "masters the word: texts for people — documents, articles, letters, reports",
+   "name": "Bard"
+  },
+  "engineer": {
+   "desc": "builds and launches: builds, releases, deploys, infrastructure",
+   "name": "Engineer"
+  },
+  "ranger": {
+   "desc": "follows the trail: investigations, debugging, incidents",
+   "name": "Ranger"
+  },
+  "smith": {
+   "desc": "forges code: features, refactoring, tests",
+   "name": "Smith"
+  },
+  "summoner": {
+   "desc": "leads a retinue: companions, their errands and memory, setting up camp",
+   "name": "Summoner"
+  },
+  "wanderer": {
+   "desc": "takes on everything beyond development: home, hobbies, personal matters",
+   "name": "Wanderer"
+  }
+ },
+ "skills": [
+  {
+   "alias": "Mark of the Master",
+   "calls": 39,
+   "first_day": "2026-08-05",
+   "key": "commit",
+   "last_day": "2026-09-30",
+   "name": "commit",
+   "next_rank": {
+    "at": 30,
+    "name": "Master"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 4,
+   "peak_rank_name": "Expert",
+   "peak_score": 23.54,
+   "rank": 4,
+   "rank_name": "Expert",
+   "rusty": false,
+   "school": "smith",
+   "score": 23.0,
+   "sessions": 39
+  },
+  {
+   "alias": "Hunt for the Fault",
+   "calls": 35,
+   "first_day": "2026-08-04",
+   "key": "systematic-debugging",
+   "last_day": "2026-09-30",
+   "name": "systematic-debugging",
+   "next_rank": {
+    "at": 30,
+    "name": "Master"
+   },
+   "peak_day": "2026-09-17",
+   "peak_rank": 4,
+   "peak_rank_name": "Expert",
+   "peak_score": 20.56,
+   "rank": 4,
+   "rank_name": "Expert",
+   "rusty": false,
+   "school": "ranger",
+   "score": 19.56,
+   "sessions": 35
+  },
+  {
+   "alias": "Morning Muster",
+   "calls": 20,
+   "first_day": "2026-08-07",
+   "key": "standup",
+   "last_day": "2026-09-30",
+   "name": "standup",
+   "next_rank": {
+    "at": 15,
+    "name": "Expert"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 3,
+   "peak_rank_name": "Adept",
+   "peak_score": 13.69,
+   "rank": 3,
+   "rank_name": "Adept",
+   "rusty": false,
+   "school": "bard",
+   "score": 13.38,
+   "sessions": 20
+  },
+  {
+   "alias": "Facade Carving",
+   "calls": 17,
+   "first_day": "2026-08-10",
+   "key": "frontend-design",
+   "last_day": "2026-09-30",
+   "name": "frontend-design",
+   "next_rank": {
+    "at": 15,
+    "name": "Expert"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 3,
+   "peak_rank_name": "Adept",
+   "peak_score": 11.32,
+   "rank": 3,
+   "rank_name": "Adept",
+   "rusty": false,
+   "school": "smith",
+   "score": 11.06,
+   "sessions": 17
+  },
+  {
+   "alias": "Map of the March",
+   "calls": 16,
+   "first_day": "2026-08-21",
+   "key": "writing-plans",
+   "last_day": "2026-10-01",
+   "name": "writing-plans",
+   "next_rank": {
+    "at": 15,
+    "name": "Expert"
+   },
+   "peak_day": "2026-10-01",
+   "peak_rank": 3,
+   "peak_rank_name": "Adept",
+   "peak_score": 10.88,
+   "rank": 3,
+   "rank_name": "Adept",
+   "rusty": false,
+   "school": "summoner",
+   "score": 10.88,
+   "sessions": 16
+  },
+  {
+   "alias": "Trial Before the Forge",
+   "calls": 18,
+   "first_day": "2026-08-04",
+   "key": "test-driven-development",
+   "last_day": "2026-09-29",
+   "name": "test-driven-development",
+   "next_rank": {
+    "at": 15,
+    "name": "Expert"
+   },
+   "peak_day": "2026-09-23",
+   "peak_rank": 3,
+   "peak_rank_name": "Adept",
+   "peak_score": 11.23,
+   "rank": 3,
+   "rank_name": "Adept",
+   "rusty": false,
+   "school": "smith",
+   "score": 10.29,
+   "sessions": 18
+  },
+  {
+   "alias": "Caravan Dispatch",
+   "calls": 14,
+   "first_day": "2026-08-06",
+   "key": "commit-push-pr",
+   "last_day": "2026-09-29",
+   "name": "commit-push-pr",
+   "next_rank": {
+    "at": 15,
+    "name": "Expert"
+   },
+   "peak_day": "2026-09-29",
+   "peak_rank": 3,
+   "peak_rank_name": "Adept",
+   "peak_score": 9.33,
+   "rank": 3,
+   "rank_name": "Adept",
+   "rusty": false,
+   "school": "engineer",
+   "score": 8.91,
+   "sessions": 14
+  },
+  {
+   "alias": "Raising the Banner",
+   "calls": 13,
+   "first_day": "2026-08-08",
+   "key": "deploy",
+   "last_day": "2026-09-30",
+   "name": "deploy",
+   "next_rank": {
+    "at": 15,
+    "name": "Expert"
+   },
+   "peak_day": "2026-09-15",
+   "peak_rank": 3,
+   "peak_rank_name": "Adept",
+   "peak_score": 8.94,
+   "rank": 3,
+   "rank_name": "Adept",
+   "rusty": false,
+   "school": "engineer",
+   "score": 8.01,
+   "sessions": 13
+  },
+  {
+   "alias": "Mock Siege",
+   "calls": 12,
+   "first_day": "2026-08-19",
+   "key": "webapp-testing",
+   "last_day": "2026-09-30",
+   "name": "webapp-testing",
+   "next_rank": {
+    "at": 15,
+    "name": "Expert"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 3,
+   "peak_rank_name": "Adept",
+   "peak_score": 8.2,
+   "rank": 3,
+   "rank_name": "Adept",
+   "rusty": false,
+   "school": "smith",
+   "score": 8.01,
+   "sessions": 12
+  },
+  {
+   "alias": "Eye of the Armorer",
+   "calls": 12,
+   "first_day": "2026-08-04",
+   "key": "code-review",
+   "last_day": "2026-10-01",
+   "name": "code-review",
+   "next_rank": {
+    "at": 8,
+    "name": "Adept"
+   },
+   "peak_day": "2026-09-24",
+   "peak_rank": 2,
+   "peak_rank_name": "Journeyman",
+   "peak_score": 7.09,
+   "rank": 2,
+   "rank_name": "Journeyman",
+   "rusty": false,
+   "school": "smith",
+   "score": 7.03,
+   "sessions": 12
+  },
+  {
+   "alias": "Circle of Schemes",
+   "calls": 11,
+   "first_day": "2026-08-25",
+   "key": "brainstorming",
+   "last_day": "2026-10-01",
+   "name": "brainstorming",
+   "next_rank": {
+    "at": 8,
+    "name": "Adept"
+   },
+   "peak_day": "2026-10-01",
+   "peak_rank": 2,
+   "peak_rank_name": "Journeyman",
+   "peak_score": 6.75,
+   "rank": 2,
+   "rank_name": "Journeyman",
+   "rusty": false,
+   "school": "summoner",
+   "score": 6.75,
+   "sessions": 11
+  },
+  {
+   "alias": "Blade Polishing",
+   "calls": 7,
+   "first_day": "2026-08-04",
+   "key": "simplify",
+   "last_day": "2026-09-30",
+   "name": "simplify",
+   "next_rank": {
+    "at": 8,
+    "name": "Adept"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 2,
+   "peak_rank_name": "Journeyman",
+   "peak_score": 4.98,
+   "rank": 2,
+   "rank_name": "Journeyman",
+   "rusty": false,
+   "school": "smith",
+   "score": 4.86,
+   "sessions": 7
+  },
+  {
+   "alias": "Council of Masters",
+   "calls": 9,
+   "first_day": "2026-08-11",
+   "key": "requesting-code-review",
+   "last_day": "2026-10-01",
+   "name": "requesting-code-review",
+   "next_rank": {
+    "at": 8,
+    "name": "Adept"
+   },
+   "peak_day": "2026-09-19",
+   "peak_rank": 2,
+   "peak_rank_name": "Journeyman",
+   "peak_score": 5.06,
+   "rank": 2,
+   "rank_name": "Journeyman",
+   "rusty": false,
+   "school": "smith",
+   "score": 4.83,
+   "sessions": 9
+  },
+  {
+   "alias": "March by the Map",
+   "calls": 6,
+   "first_day": "2026-08-06",
+   "key": "executing-plans",
+   "last_day": "2026-09-28",
+   "name": "executing-plans",
+   "next_rank": {
+    "at": 4,
+    "name": "Journeyman"
+   },
+   "peak_day": "2026-09-06",
+   "peak_rank": 2,
+   "peak_rank_name": "Journeyman",
+   "peak_score": 4.03,
+   "rank": 1,
+   "rank_name": "Apprentice",
+   "rusty": true,
+   "school": "summoner",
+   "score": 3.19,
+   "sessions": 6
+  },
+  {
+   "alias": "Tables of the Alchemist",
+   "calls": 5,
+   "first_day": "2026-08-11",
+   "key": "xlsx",
+   "last_day": "2026-09-29",
+   "name": "xlsx",
+   "next_rank": {
+    "at": 4,
+    "name": "Journeyman"
+   },
+   "peak_day": "2026-09-29",
+   "peak_rank": 1,
+   "peak_rank_name": "Apprentice",
+   "peak_score": 3.29,
+   "rank": 1,
+   "rank_name": "Apprentice",
+   "rusty": false,
+   "school": "alchemist",
+   "score": 3.14,
+   "sessions": 5
+  },
+  {
+   "alias": "Pitching the Tent",
+   "calls": 7,
+   "first_day": "2026-08-04",
+   "key": "update-config",
+   "last_day": "2026-09-11",
+   "name": "update-config",
+   "next_rank": {
+    "at": 4,
+    "name": "Journeyman"
+   },
+   "peak_day": "2026-09-11",
+   "peak_rank": 2,
+   "peak_rank_name": "Journeyman",
+   "peak_score": 4.73,
+   "rank": 1,
+   "rank_name": "Apprentice",
+   "rusty": true,
+   "school": "summoner",
+   "score": 2.98,
+   "sessions": 7
+  },
+  {
+   "alias": "Twin Workshops",
+   "calls": 4,
+   "first_day": "2026-09-03",
+   "key": "using-git-worktrees",
+   "last_day": "2026-09-26",
+   "name": "using-git-worktrees",
+   "next_rank": {
+    "at": 4,
+    "name": "Journeyman"
+   },
+   "peak_day": "2026-09-26",
+   "peak_rank": 1,
+   "peak_rank_name": "Apprentice",
+   "peak_score": 3.14,
+   "rank": 1,
+   "rank_name": "Apprentice",
+   "rusty": false,
+   "school": "engineer",
+   "score": 2.8,
+   "sessions": 4
+  },
+  {
+   "alias": "Maker of Techniques",
+   "calls": 3,
+   "first_day": "2026-09-08",
+   "key": "skill-creator",
+   "last_day": "2026-09-23",
+   "name": "skill-creator",
+   "next_rank": {
+    "at": 4,
+    "name": "Journeyman"
+   },
+   "peak_day": "2026-09-23",
+   "peak_rank": 1,
+   "peak_rank_name": "Apprentice",
+   "peak_score": 2.54,
+   "rank": 1,
+   "rank_name": "Apprentice",
+   "rusty": false,
+   "school": "summoner",
+   "score": 2.11,
+   "sessions": 3
+  },
+  {
+   "alias": "Forging the New",
+   "calls": 6,
+   "first_day": "2026-08-04",
+   "key": "feature-dev",
+   "last_day": "2026-09-01",
+   "name": "feature-dev",
+   "next_rank": {
+    "at": 4,
+    "name": "Journeyman"
+   },
+   "peak_day": "2026-09-01",
+   "peak_rank": 2,
+   "peak_rank_name": "Journeyman",
+   "peak_score": 4.07,
+   "rank": 1,
+   "rank_name": "Apprentice",
+   "rusty": true,
+   "school": "smith",
+   "score": 2.03,
+   "sessions": 6
+  },
+  {
+   "alias": "Retinue of Doers",
+   "calls": 2,
+   "first_day": "2026-09-25",
+   "key": "subagent-driven-development",
+   "last_day": "2026-09-25",
+   "name": "subagent-driven-development",
+   "next_rank": {
+    "at": 2,
+    "name": "Apprentice"
+   },
+   "peak_day": "2026-09-25",
+   "peak_rank": 1,
+   "peak_rank_name": "Apprentice",
+   "peak_score": 2.0,
+   "rank": 0,
+   "rank_name": "Novice",
+   "rusty": true,
+   "school": "summoner",
+   "score": 1.74,
+   "sessions": 2
+  },
+  {
+   "alias": "Reading Parchments",
+   "calls": 2,
+   "first_day": "2026-09-22",
+   "key": "pdf",
+   "last_day": "2026-09-25",
+   "name": "pdf",
+   "next_rank": {
+    "at": 2,
+    "name": "Apprentice"
+   },
+   "peak_day": "2026-09-25",
+   "peak_rank": 0,
+   "peak_rank_name": "Novice",
+   "peak_score": 1.93,
+   "rank": 0,
+   "rank_name": "Novice",
+   "rusty": false,
+   "school": "bard",
+   "score": 1.68,
+   "sessions": 2
+  },
+  {
+   "alias": "Map of Wanderings",
+   "calls": 2,
+   "first_day": "2026-08-20",
+   "key": "trip-planner",
+   "last_day": "2026-09-22",
+   "name": "trip-planner",
+   "next_rank": {
+    "at": 2,
+    "name": "Apprentice"
+   },
+   "peak_day": "2026-09-22",
+   "peak_rank": 0,
+   "peak_rank_name": "Novice",
+   "peak_score": 1.47,
+   "rank": 0,
+   "rank_name": "Novice",
+   "rusty": false,
+   "school": "wanderer",
+   "score": 1.19,
+   "sessions": 2
+  },
+  {
+   "alias": "Forging Artifacts",
+   "calls": 1,
+   "first_day": "2026-09-28",
+   "key": "mcp-builder",
+   "last_day": "2026-09-28",
+   "name": "mcp-builder",
+   "next_rank": {
+    "at": 2,
+    "name": "Apprentice"
+   },
+   "peak_day": "2026-09-28",
+   "peak_rank": 0,
+   "peak_rank_name": "Novice",
+   "peak_score": 1.0,
+   "rank": 0,
+   "rank_name": "Novice",
+   "rusty": false,
+   "school": "summoner",
+   "score": 0.93,
+   "sessions": 1
+  },
+  {
+   "alias": "Line to the Oracle",
+   "calls": 1,
+   "first_day": "2026-08-29",
+   "key": "claude-api",
+   "last_day": "2026-08-29",
+   "name": "claude-api",
+   "next_rank": {
+    "at": 2,
+    "name": "Apprentice"
+   },
+   "peak_day": "2026-08-29",
+   "peak_rank": 0,
+   "peak_rank_name": "Novice",
+   "peak_score": 1.0,
+   "rank": 0,
+   "rank_name": "Novice",
+   "rusty": false,
+   "school": "smith",
+   "score": 0.47,
+   "sessions": 1
+  },
+  {
+   "alias": "Caravan to the Shops",
+   "calls": 1,
+   "first_day": "2026-08-05",
+   "key": "mobile-release",
+   "last_day": "2026-08-05",
+   "name": "mobile-release",
+   "next_rank": {
+    "at": 2,
+    "name": "Apprentice"
+   },
+   "peak_day": "2026-08-05",
+   "peak_rank": 0,
+   "peak_rank_name": "Novice",
+   "peak_score": 1.0,
+   "rank": 0,
+   "rank_name": "Novice",
+   "rusty": false,
+   "school": "engineer",
+   "score": 0.27,
+   "sessions": 1
+  }
+ ],
+ "stats": {
+  "active_days": 55,
+  "all_sessions": 304,
+  "first_day": "2026-08-04",
+  "hero_hours": 219.6,
+  "human_turns": 1735,
+  "last_day": "2026-10-01",
+  "locations": 9,
+  "recent": {
+   "active_days": 31,
+   "hours": 152.8,
+   "human_turns": 1212,
+   "sessions": 193
+  },
+  "sessions": 295,
+  "tool_calls": 27127,
+  "top_places": [
+   {
+    "name": "shop-api",
+    "sessions": 118
+   },
+   {
+    "name": "web-app",
+    "sessions": 83
+   },
+   {
+    "name": "infra",
+    "sessions": 26
+   },
+   {
+    "name": "data-notebooks",
+    "sessions": 23
+   },
+   {
+    "name": "docs-site",
+    "sessions": 10
+   }
+  ]
+ },
+ "title": "Marathoner",
+ "title_key": "marathon",
+ "treasury": {
+  "camp": {
+   "count": 30,
+   "max": 4,
+   "name": "Lives by the fire II",
+   "next": {
+    "at": 60,
+    "name": "Lives by the fire III"
+   },
+   "sessions": 13,
+   "tier": 3
+  },
+  "gold": {
+   "dearest": [
+    {
+     "cache_read": 400753181,
+     "day": "2026-09-16",
+     "place": "shop-api",
+     "tokens": 403874105,
+     "units": 45353997
+    },
+    {
+     "cache_read": 392716576,
+     "day": "2026-09-04",
+     "place": "shop-api",
+     "tokens": 395793740,
+     "units": 44478274
+    },
+    {
+     "cache_read": 365252914,
+     "day": "2026-09-06",
+     "place": "shop-api",
+     "tokens": 368285537,
+     "units": 41638287
+    }
+   ],
+   "name": "Treasure vault",
+   "next": {
+    "at": 1000000000.0,
+    "name": "Dragon's hoard"
+   },
+   "sessions": 202,
+   "tier": 4,
+   "tokens": {
+    "cache_read": 4493322166,
+    "cache_write": 45076165,
+    "input": 144173,
+    "output": 5997795
+   },
+   "units": 535810571
+  }
+ },
+ "window_days": 30
+}

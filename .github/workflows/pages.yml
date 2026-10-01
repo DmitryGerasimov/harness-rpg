@@ -1,0 +1,39 @@
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths: ['data/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      # The demo is the example hero: the English page at the root, the Russian one under ru/.
+      - name: Build the site
+        run: |
+          mkdir -p site/ru
+          cp data/en/character.html site/index.html
+          cp data/character.html site/ru/index.html
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v5

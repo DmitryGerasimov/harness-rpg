@@ -1,0 +1,223 @@
+{
+ "mcp": {
+  "claude_ai_Linear": {
+   "alias_en": "Ring of Designs",
+   "families": {},
+   "slot": "ring",
+   "split_checked": true
+  },
+  "claude_ai_Notion": {
+   "alias_en": "Tome of Notes",
+   "slot": "grimoire"
+  },
+  "claude_ai_Slack": {
+   "alias_en": "Horn of the Courier",
+   "slot": "horn"
+  },
+  "figma": {
+   "alias_en": "Palette of the Architect",
+   "name": "Figma",
+   "slot": "bag"
+  },
+  "google_workspace": {
+   "families": {
+    "calendar": {
+     "alias_en": "Hourglass",
+     "name": "Google Workspace Calendar",
+     "prefixes": [
+      "calendar"
+     ],
+     "slot": "bag"
+    },
+    "files": {
+     "alias_en": "Cloak of the Wanderer",
+     "name": "Google Workspace Drive",
+     "prefixes": [
+      "drive"
+     ],
+     "slot": "cloak"
+    },
+    "mail": {
+     "alias_en": "Carrier Pigeon",
+     "name": "Google Workspace Mail",
+     "prefixes": [
+      "gmail"
+     ],
+     "slot": "horn"
+    }
+   },
+   "name": "Google Workspace",
+   "split_checked": true
+  },
+  "plugin_context7_context7": {
+   "alias_en": "Scroll of Lore",
+   "slot": "grimoire"
+  },
+  "plugin_github_github": {
+   "alias_en": "Plate Gauntlets",
+   "families": {},
+   "name": "GitHub",
+   "slot": "gloves",
+   "split_checked": true
+  },
+  "plugin_playwright_playwright": {
+   "alias_en": "Boots of the Scout",
+   "name": "Playwright",
+   "slot": "boots"
+  },
+  "postgres": {
+   "alias_en": "Amulet of the Deep",
+   "name": "PostgreSQL",
+   "slot": "amulet"
+  },
+  "sentry": {
+   "alias_en": "Helm of the Watchman",
+   "families": {},
+   "name": "Sentry",
+   "slot": "helmet",
+   "split_checked": true
+  }
+ },
+ "skills": {
+  "brainstorming": {
+   "alias_en": "Circle of Schemes",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "claude-api": {
+   "alias_en": "Line to the Oracle",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "code-review": {
+   "alias_en": "Eye of the Armorer",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "commit": {
+   "alias_en": "Mark of the Master",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "commit-push-pr": {
+   "alias_en": "Caravan Dispatch",
+   "school": "engineer",
+   "school_rules": 2
+  },
+  "deploy": {
+   "alias_en": "Raising the Banner",
+   "school": "engineer",
+   "school_rules": 2
+  },
+  "docx": {
+   "alias_en": "Charter Scribe",
+   "school": "bard",
+   "school_rules": 2
+  },
+  "executing-plans": {
+   "alias_en": "March by the Map",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "feature-dev": {
+   "alias_en": "Forging the New",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "frontend-design": {
+   "alias_en": "Facade Carving",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "loop": {
+   "alias_en": "Eternal Watch",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "mcp-builder": {
+   "alias_en": "Forging Artifacts",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "mobile-release": {
+   "alias_en": "Caravan to the Shops",
+   "school": "engineer",
+   "school_rules": 2
+  },
+  "pdf": {
+   "alias_en": "Reading Parchments",
+   "school": "bard",
+   "school_rules": 2
+  },
+  "pptx": {
+   "alias_en": "Living Tapestries",
+   "school": "bard",
+   "school_rules": 2
+  },
+  "requesting-code-review": {
+   "alias_en": "Council of Masters",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "simplify": {
+   "alias_en": "Blade Polishing",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "skill-creator": {
+   "alias_en": "Maker of Techniques",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "standup": {
+   "alias_en": "Morning Muster",
+   "school": "bard",
+   "school_rules": 2
+  },
+  "subagent-driven-development": {
+   "alias_en": "Retinue of Doers",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "systematic-debugging": {
+   "alias_en": "Hunt for the Fault",
+   "school": "ranger",
+   "school_rules": 2
+  },
+  "test-driven-development": {
+   "alias_en": "Trial Before the Forge",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "trip-planner": {
+   "alias_en": "Map of Wanderings",
+   "school": "wanderer",
+   "school_rules": 2
+  },
+  "update-config": {
+   "alias_en": "Pitching the Tent",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "using-git-worktrees": {
+   "alias_en": "Twin Workshops",
+   "school": "engineer",
+   "school_rules": 2
+  },
+  "webapp-testing": {
+   "alias_en": "Mock Siege",
+   "school": "smith",
+   "school_rules": 2
+  },
+  "writing-plans": {
+   "alias_en": "Map of the March",
+   "school": "summoner",
+   "school_rules": 2
+  },
+  "xlsx": {
+   "alias_en": "Tables of the Alchemist",
+   "school": "alchemist",
+   "school_rules": 2
+  }
+ }
+}

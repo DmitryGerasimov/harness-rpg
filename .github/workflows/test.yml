@@ -1,0 +1,57 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.9', '3.10', '3.11', '3.12', '3.13', '3.14']
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Test
+        run: python -m unittest discover -s tests -t .
+
+      - name: Render the example
+        run: |
+          home=$(mktemp -d)
+          cp -R data/. "$home"
+          python skill/scripts/rpg.py --home "$home" render
+
+  # The Python macOS ships as /usr/bin/python3 is the one most Mac users run the skill with.
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Test
+        run: /usr/bin/python3 -m unittest discover -s tests -t .
+
+  # The example is the live demo: it has to be what the current skill builds.
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Rebuild the example
+        run: python3 data/generate.py
+
+      - name: Check that it is up to date
+        run: |
+          if [ -n "$(git status --porcelain -- data)" ]; then
+            git status --short -- data
+            echo 'data/ is stale: run "python3 data/generate.py" and commit the result'
+            exit 1
+          fi

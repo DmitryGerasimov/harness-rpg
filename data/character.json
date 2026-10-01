@@ -1,0 +1,1784 @@
+{
+ "achievements": [
+  {
+   "criteria": [
+    "пережить 1 сжатие памяти за один поход и продолжить путь",
+    "пережить 3 сжатия памяти за один поход и продолжить путь",
+    "пережить 6 сжатий памяти за один поход и продолжить путь"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "phoenix",
+   "name": "Феникс",
+   "record_day": "2026-09-06",
+   "thresholds": [
+    1,
+    3,
+    6
+   ],
+   "tier": 1,
+   "tier_name": "серебро",
+   "value": 4,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "пройти поход в 30 действий без единой ошибки",
+    "пройти поход в 150 действий без единой ошибки",
+    "пройти поход в 400 действий без единой ошибки"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "flawless",
+   "name": "Безупречный",
+   "record_day": "2026-08-25",
+   "thresholds": [
+    30,
+    150,
+    400
+   ],
+   "tier": 0,
+   "tier_name": "бронза",
+   "value": 91,
+   "value_tier": 0
+  },
+  {
+   "criteria": [
+    "призвать 2 помощников за один поход",
+    "призвать 10 помощников за один поход",
+    "призвать 25 помощников за один поход"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-09T23:05:00+03:00",
+   "key": "warlord",
+   "name": "Полководец",
+   "record_day": "2026-09-18",
+   "thresholds": [
+    2,
+    10,
+    25
+   ],
+   "tier": 1,
+   "tier_name": "серебро",
+   "value": 14,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "проработать 1 час подряд — без пауз дольше 10 минут",
+    "проработать 2 часа подряд — без пауз дольше 10 минут",
+    "проработать 4 часа подряд — без пауз дольше 10 минут"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "marathon",
+   "name": "Марафонец",
+   "record_day": "2026-09-16",
+   "thresholds": [
+    1,
+    2,
+    4
+   ],
+   "tier": 2,
+   "tier_name": "золото",
+   "value": 8.78,
+   "value_tier": 2
+  },
+  {
+   "criteria": [
+    "провести в работе 1 час за один поход — паузы дольше 10 минут не в счёт",
+    "провести в работе 6 часов за один поход — паузы дольше 10 минут не в счёт",
+    "провести в работе 12 часов за один поход — паузы дольше 10 минут не в счёт"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "trek",
+   "name": "Дальний поход",
+   "record_day": "2026-09-16",
+   "thresholds": [
+    1,
+    6,
+    12
+   ],
+   "tier": 1,
+   "tier_name": "серебро",
+   "value": 10.37,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "работать 3 дня подряд",
+    "работать 30 дней подряд",
+    "работать 90 дней подряд"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-22T22:15:00+03:00",
+   "key": "tireless",
+   "name": "Неутомимый",
+   "record_day": "2026-10-01",
+   "thresholds": [
+    3,
+    30,
+    90
+   ],
+   "tier": 1,
+   "tier_name": "серебро",
+   "value": 39,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "за один день применить навыки 2 разных школ",
+    "за один день применить навыки 5 разных школ",
+    "за один день применить навыки 7 разных школ"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "versatile",
+   "name": "Мастер на все руки",
+   "record_day": "2026-09-29",
+   "thresholds": [
+    2,
+    5,
+    7
+   ],
+   "tier": 1,
+   "tier_name": "серебро",
+   "value": 6,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "сначала составить план, а потом действовать, в 5 походах",
+    "сначала составить план, а потом действовать, в 50 походах",
+    "сначала составить план, а потом действовать, в 200 походах"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-22T22:15:00+03:00",
+   "key": "strategist",
+   "name": "Стратег",
+   "record_day": null,
+   "thresholds": [
+    5,
+    50,
+    200
+   ],
+   "tier": 1,
+   "tier_name": "серебро",
+   "value": 75,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "править файлы 3 разных типов",
+    "править файлы 12 разных типов",
+    "править файлы 25 разных типов"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "polyglot",
+   "name": "Полиглот",
+   "record_day": null,
+   "thresholds": [
+    3,
+    12,
+    25
+   ],
+   "tier": 1,
+   "tier_name": "серебро",
+   "value": 19,
+   "value_tier": 1
+  },
+  {
+   "criteria": [
+    "поработать в 3 разных местах",
+    "поработать в 15 разных местах",
+    "поработать в 40 разных местах"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-02T22:10:00+03:00",
+   "key": "explorer",
+   "name": "Странник миров",
+   "record_day": null,
+   "thresholds": [
+    3,
+    15,
+    40
+   ],
+   "tier": 0,
+   "tier_name": "бронза",
+   "value": 9,
+   "value_tier": 0
+  },
+  {
+   "criteria": [
+    "работать глубокой ночью, с полуночи до 5 утра, — 1 ночь",
+    "работать глубокой ночью, с полуночи до 5 утра, — 10 ночей",
+    "работать глубокой ночью, с полуночи до 5 утра, — 30 ночей"
+   ],
+   "earned": true,
+   "earned_at": "2026-09-22T22:15:00+03:00",
+   "key": "night_owl",
+   "name": "Ночная сова",
+   "record_day": null,
+   "thresholds": [
+    1,
+    10,
+    30
+   ],
+   "tier": 1,
+   "tier_name": "серебро",
+   "value": 17,
+   "value_tier": 1
+  }
+ ],
+ "alignment": {
+  "desc": "добрый странник: бережёт мир без лишних уставов",
+  "details": {
+   "destructive": 3,
+   "evil_share": 0.016,
+   "good_share": 0.487,
+   "law_score": 0.468,
+   "modes": {
+    "acceptEdits": 59,
+    "auto": 35,
+    "bypassPermissions": 7,
+    "default": 74,
+    "plan": 18
+   },
+   "moral_score": 0.44,
+   "plan_share": 0.244,
+   "questions": 54,
+   "rules_lines": 24,
+   "sessions": 193,
+   "strictness": 0.72,
+   "verifications": 778
+  },
+  "law": "neutral",
+  "moral": "good",
+  "name": "Нейтральный добрый"
+ },
+ "attributes": [
+  {
+   "abbr": "СИЛ",
+   "desc": "сколько работы герой вывозит за один заход",
+   "key": "str",
+   "metrics": [
+    {
+     "label": "правок в обычной сессии с правками",
+     "score": 12.7,
+     "value": "8"
+    },
+    {
+     "label": "сессий с правками",
+     "score": null,
+     "value": "125 из 193"
+    }
+   ],
+   "name": "Сила",
+   "rule": "сколько правок (Edit, Write) в обычной сессии с правками; 5 правок — это 10,5 из 20",
+   "value": 13
+  },
+  {
+   "abbr": "ЛОВ",
+   "desc": "точность: действия и правки без промахов",
+   "key": "dex",
+   "metrics": [
+    {
+     "label": "вызовов без ошибок",
+     "score": 16.1,
+     "value": "96,9% из 18 812"
+    },
+    {
+     "label": "правок с первого раза",
+     "score": 17.0,
+     "value": "97,6% из 2 501"
+    }
+   ],
+   "name": "Ловкость",
+   "rule": "среднее двух оценок: доля вызовов без ошибок и доля правок с первого раза; 85% — это 1 из 20, 100% — это 20",
+   "value": 17
+  },
+  {
+   "abbr": "ВЫН",
+   "desc": "долгие походы и серии дней без перерыва",
+   "key": "con",
+   "metrics": [
+    {
+     "label": "10% самых долгих сессий",
+     "score": 10.4,
+     "value": "от 1,5 ч"
+    },
+    {
+     "label": "компактов",
+     "score": 18.3,
+     "value": "30"
+    },
+    {
+     "label": "текущая серия дней",
+     "score": 17.1,
+     "value": "39"
+    }
+   ],
+   "name": "Выносливость",
+   "rule": "среднее трёх оценок: длина 10% самых долгих сессий (1,5 ч — это 10,5 из 20), компакты (3 — 10,5), текущая серия дней (7 — 10,5)",
+   "value": 15
+  },
+  {
+   "abbr": "ИНТ",
+   "desc": "широта арсенала и тяга к знаниям",
+   "key": "int",
+   "metrics": [
+    {
+     "label": "разных тулов, скилов и MCP в ходу",
+     "score": 14.2,
+     "value": "46 = 14 + 22 + 10"
+    },
+    {
+     "label": "обращений к докам на сессию",
+     "score": 14.2,
+     "value": "2,26"
+    }
+   ],
+   "name": "Интеллект",
+   "rule": "среднее двух оценок: разных тулов, скилов и MCP в ходу (20 — это 10,5 из 20) и обращений к докам на сессию (1 — 10,5)",
+   "value": 14
+  },
+  {
+   "abbr": "МДР",
+   "desc": "самостоятельность и взвешенность решений",
+   "key": "wis",
+   "metrics": [
+    {
+     "label": "действий на реплику в обычной сессии",
+     "score": 13.4,
+     "value": "15,0"
+    },
+    {
+     "label": "прерываний и отказов на реплику",
+     "score": 14.8,
+     "value": "0,08"
+    },
+    {
+     "label": "сессий с plan mode",
+     "score": 11.4,
+     "value": "24%"
+    }
+   ],
+   "name": "Мудрость",
+   "rule": "среднее трёх оценок: действий на реплику (8 — это 10,5 из 20), прерываний и отказов на реплику (0 — 20, 0,3 и больше — 1), доля сессий с plan mode (20% — 10,5)",
+   "value": 13
+  },
+  {
+   "abbr": "ХАР",
+   "desc": "влияние на мир за пределами кода",
+   "key": "cha",
+   "metrics": [
+    {
+     "label": "коммитов, PR, исходящих вызовов MCP",
+     "score": null,
+     "value": "75, 10, 86"
+    },
+    {
+     "label": "действий на активный день",
+     "score": 13.3,
+     "value": "5,5 за 31 день"
+    }
+   ],
+   "name": "Харизма",
+   "rule": "коммиты, PR и исходящие вызовы MCP на активный день; 3 — это 10,5 из 20",
+   "value": 13
+  }
+ ],
+ "auras": [
+  {
+   "effect": "ни одно завершённое дело не остаётся без вести",
+   "events": {
+    "Stop": 1735
+   },
+   "hooks": {
+    "notify.sh": 1735
+   },
+   "key": "herald",
+   "last_day": "2026-10-01",
+   "name": "Аура вестника",
+   "next_tier": null,
+   "sessions": 193,
+   "share": 1.0,
+   "tier": 4,
+   "tier_name": "Сияющая",
+   "window": 193
+  },
+  {
+   "effect": "каждый поход начинается с благословения",
+   "events": {
+    "SessionStart": 125
+   },
+   "hooks": {
+    "load-context.sh": 125
+   },
+   "key": "dawn",
+   "last_day": "2026-10-01",
+   "name": "Аура рассвета",
+   "next_tier": {
+    "at": 0.9,
+    "name": "Сияющая"
+   },
+   "sessions": 125,
+   "share": 0.648,
+   "tier": 3,
+   "tier_name": "Яркая",
+   "window": 193
+  },
+  {
+   "effect": "после каждого действия результат доводится до блеска",
+   "events": {
+    "PostToolUse": 3025
+   },
+   "hooks": {
+    "format.sh": 3025
+   },
+   "key": "temper",
+   "last_day": "2026-10-01",
+   "name": "Аура закалки",
+   "next_tier": {
+    "at": 0.9,
+    "name": "Сияющая"
+   },
+   "sessions": 124,
+   "share": 0.642,
+   "tier": 3,
+   "tier_name": "Яркая",
+   "window": 193
+  },
+  {
+   "effect": "каждое действие проходит проверку до удара",
+   "events": {
+    "PreToolUse": 1374
+   },
+   "hooks": {
+    "guard-bash.sh": 1374
+   },
+   "key": "guard",
+   "last_day": "2026-10-01",
+   "name": "Аура стража",
+   "next_tier": {
+    "at": 0.3,
+    "name": "Ровная"
+   },
+   "sessions": 55,
+   "share": 0.285,
+   "tier": 1,
+   "tier_name": "Тлеющая",
+   "window": 193
+  }
+ ],
+ "class": {
+  "basis": "current",
+  "epithet": "Чистокровный кузнец",
+  "lore": "куёт код: фичи, рефакторинг, тесты",
+  "name": "Кузнец",
+  "primary": "smith",
+  "secondary": null,
+  "weights": {
+   "alchemist": 3.14,
+   "bard": 15.06,
+   "engineer": 19.99,
+   "ranger": 19.56,
+   "smith": 71.58,
+   "summoner": 28.58,
+   "wanderer": 1.19
+  }
+ },
+ "gear": [
+  {
+   "affixes": 11,
+   "alias": "Латные перчатки",
+   "calls": 414,
+   "equipped": true,
+   "first_day": "2026-08-04",
+   "known": true,
+   "last_day": "2026-10-01",
+   "name": "GitHub",
+   "next_rarity": null,
+   "peak_day": "2026-09-30",
+   "peak_rarity": "legendary",
+   "peak_rarity_name": "легендарная",
+   "peak_score": 50.61,
+   "rarity": "legendary",
+   "rarity_name": "легендарная",
+   "score": 50.46,
+   "servers": [
+    "plugin_github_github"
+   ],
+   "sessions": 90,
+   "slot": "gloves",
+   "tools": [
+    {
+     "calls": 87,
+     "name": "search_code"
+    },
+    {
+     "calls": 82,
+     "name": "get_file_contents"
+    },
+    {
+     "calls": 37,
+     "name": "get_pull_request"
+    },
+    {
+     "calls": 37,
+     "name": "list_pull_requests"
+    },
+    {
+     "calls": 31,
+     "name": "list_workflow_runs"
+    },
+    {
+     "calls": 30,
+     "name": "get_issue"
+    },
+    {
+     "calls": 30,
+     "name": "get_workflow_run_logs"
+    },
+    {
+     "calls": 27,
+     "name": "list_commits"
+    },
+    {
+     "calls": 26,
+     "name": "list_issues"
+    },
+    {
+     "calls": 14,
+     "name": "add_issue_comment"
+    },
+    {
+     "calls": 13,
+     "name": "create_pull_request"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 6,
+   "alias": "Кольцо замыслов",
+   "calls": 265,
+   "equipped": true,
+   "first_day": "2026-08-05",
+   "known": true,
+   "last_day": "2026-10-01",
+   "name": "Linear",
+   "next_rarity": {
+    "at": 45,
+    "name": "легендарная"
+   },
+   "peak_day": "2026-09-15",
+   "peak_rarity": "epic",
+   "peak_rarity_name": "эпическая",
+   "peak_score": 23.82,
+   "rarity": "epic",
+   "rarity_name": "эпическая",
+   "score": 22.03,
+   "servers": [
+    "claude_ai_Linear"
+   ],
+   "sessions": 42,
+   "slot": "ring",
+   "tools": [
+    {
+     "calls": 88,
+     "name": "get_issue"
+    },
+    {
+     "calls": 77,
+     "name": "list_issues"
+    },
+    {
+     "calls": 43,
+     "name": "update_issue"
+    },
+    {
+     "calls": 27,
+     "name": "create_comment"
+    },
+    {
+     "calls": 19,
+     "name": "list_projects"
+    },
+    {
+     "calls": 11,
+     "name": "create_issue"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 5,
+   "alias": "Амулет глубин",
+   "calls": 104,
+   "equipped": true,
+   "first_day": "2026-08-07",
+   "known": true,
+   "last_day": "2026-10-01",
+   "name": "PostgreSQL",
+   "next_rarity": {
+    "at": 20,
+    "name": "эпическая"
+   },
+   "peak_day": "2026-10-01",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "редкая",
+   "peak_score": 15.35,
+   "rarity": "rare",
+   "rarity_name": "редкая",
+   "score": 15.35,
+   "servers": [
+    "postgres"
+   ],
+   "sessions": 26,
+   "slot": "amulet",
+   "tools": [
+    {
+     "calls": 56,
+     "name": "execute_sql"
+    },
+    {
+     "calls": 17,
+     "name": "list_objects"
+    },
+    {
+     "calls": 13,
+     "name": "explain_query"
+    },
+    {
+     "calls": 13,
+     "name": "get_object_details"
+    },
+    {
+     "calls": 5,
+     "name": "list_schemas"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 4,
+   "alias": "Фолиант заметок",
+   "calls": 92,
+   "equipped": true,
+   "first_day": "2026-08-06",
+   "known": true,
+   "last_day": "2026-09-30",
+   "name": "Notion",
+   "next_rarity": {
+    "at": 20,
+    "name": "эпическая"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "редкая",
+   "peak_score": 15.38,
+   "rarity": "rare",
+   "rarity_name": "редкая",
+   "score": 15.03,
+   "servers": [
+    "claude_ai_Notion"
+   ],
+   "sessions": 24,
+   "slot": "grimoire",
+   "tools": [
+    {
+     "calls": 41,
+     "name": "notion-fetch"
+    },
+    {
+     "calls": 26,
+     "name": "notion-search"
+    },
+    {
+     "calls": 14,
+     "name": "notion-update-page"
+    },
+    {
+     "calls": 11,
+     "name": "notion-create-pages"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 7,
+   "alias": "Сапоги лазутчика",
+   "calls": 100,
+   "equipped": true,
+   "first_day": "2026-08-05",
+   "known": true,
+   "last_day": "2026-09-29",
+   "name": "Playwright",
+   "next_rarity": {
+    "at": 20,
+    "name": "эпическая"
+   },
+   "peak_day": "2026-09-23",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "редкая",
+   "peak_score": 15.68,
+   "rarity": "rare",
+   "rarity_name": "редкая",
+   "score": 14.92,
+   "servers": [
+    "plugin_playwright_playwright"
+   ],
+   "sessions": 26,
+   "slot": "boots",
+   "tools": [
+    {
+     "calls": 25,
+     "name": "browser_navigate"
+    },
+    {
+     "calls": 19,
+     "name": "browser_snapshot"
+    },
+    {
+     "calls": 16,
+     "name": "browser_take_screenshot"
+    },
+    {
+     "calls": 13,
+     "name": "browser_type"
+    },
+    {
+     "calls": 11,
+     "name": "browser_click"
+    },
+    {
+     "calls": 10,
+     "name": "browser_console_messages"
+    },
+    {
+     "calls": 6,
+     "name": "browser_evaluate"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 5,
+   "alias": "Шлем часового",
+   "calls": 70,
+   "equipped": true,
+   "first_day": "2026-08-06",
+   "known": true,
+   "last_day": "2026-09-29",
+   "name": "Sentry",
+   "next_rarity": {
+    "at": 20,
+    "name": "эпическая"
+   },
+   "peak_day": "2026-09-24",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "редкая",
+   "peak_score": 11.99,
+   "rarity": "rare",
+   "rarity_name": "редкая",
+   "score": 11.15,
+   "servers": [
+    "sentry"
+   ],
+   "sessions": 19,
+   "slot": "helmet",
+   "tools": [
+    {
+     "calls": 24,
+     "name": "search_issues"
+    },
+    {
+     "calls": 23,
+     "name": "get_issue_details"
+    },
+    {
+     "calls": 8,
+     "name": "find_releases"
+    },
+    {
+     "calls": 8,
+     "name": "get_trace_details"
+    },
+    {
+     "calls": 7,
+     "name": "search_events"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 4,
+   "alias": "Рог вестового",
+   "calls": 69,
+   "equipped": true,
+   "first_day": "2026-08-05",
+   "known": true,
+   "last_day": "2026-09-30",
+   "name": "Slack",
+   "next_rarity": {
+    "at": 20,
+    "name": "эпическая"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "редкая",
+   "peak_score": 10.42,
+   "rarity": "rare",
+   "rarity_name": "редкая",
+   "score": 10.18,
+   "servers": [
+    "claude_ai_Slack"
+   ],
+   "sessions": 17,
+   "slot": "horn",
+   "tools": [
+    {
+     "calls": 24,
+     "name": "slack_search_public"
+    },
+    {
+     "calls": 20,
+     "name": "slack_read_thread"
+    },
+    {
+     "calls": 17,
+     "name": "slack_read_channel"
+    },
+    {
+     "calls": 8,
+     "name": "slack_send_message"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 2,
+   "alias": "Свиток справок",
+   "calls": 67,
+   "equipped": false,
+   "first_day": "2026-08-04",
+   "known": true,
+   "last_day": "2026-09-30",
+   "name": "context7",
+   "next_rarity": {
+    "at": 20,
+    "name": "эпическая"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rarity": "rare",
+   "peak_rarity_name": "редкая",
+   "peak_score": 8.81,
+   "rarity": "rare",
+   "rarity_name": "редкая",
+   "score": 8.61,
+   "servers": [
+    "plugin_context7_context7"
+   ],
+   "sessions": 14,
+   "slot": "grimoire",
+   "tools": [
+    {
+     "calls": 52,
+     "name": "query-docs"
+    },
+    {
+     "calls": 15,
+     "name": "resolve-library-id"
+    }
+   ],
+   "worn_instead": "Notion"
+  },
+  {
+   "affixes": 3,
+   "alias": "Голубиная почта",
+   "calls": 31,
+   "equipped": false,
+   "first_day": "2026-08-13",
+   "known": true,
+   "last_day": "2026-09-29",
+   "name": "Google Workspace Mail",
+   "next_rarity": {
+    "at": 8,
+    "name": "редкая"
+   },
+   "peak_day": "2026-09-29",
+   "peak_rarity": "uncommon",
+   "peak_rarity_name": "необычная",
+   "peak_score": 7.4,
+   "rarity": "uncommon",
+   "rarity_name": "необычная",
+   "score": 7.07,
+   "servers": [
+    "google_workspace"
+   ],
+   "sessions": 11,
+   "slot": "horn",
+   "tools": [
+    {
+     "calls": 18,
+     "name": "gmail_get_message"
+    },
+    {
+     "calls": 9,
+     "name": "gmail_search_messages"
+    },
+    {
+     "calls": 4,
+     "name": "gmail_send_message"
+    }
+   ],
+   "worn_instead": "Slack"
+  },
+  {
+   "affixes": 4,
+   "alias": "Палитра зодчего",
+   "calls": 51,
+   "equipped": false,
+   "first_day": "2026-09-11",
+   "known": true,
+   "last_day": "2026-09-30",
+   "name": "Figma",
+   "next_rarity": {
+    "at": 8,
+    "name": "редкая"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rarity": "uncommon",
+   "peak_rarity_name": "необычная",
+   "peak_score": 6.83,
+   "rarity": "uncommon",
+   "rarity_name": "необычная",
+   "score": 6.67,
+   "servers": [
+    "figma"
+   ],
+   "sessions": 8,
+   "slot": "bag",
+   "tools": [
+    {
+     "calls": 25,
+     "name": "get_design_context"
+    },
+    {
+     "calls": 11,
+     "name": "get_screenshot"
+    },
+    {
+     "calls": 9,
+     "name": "get_metadata"
+    },
+    {
+     "calls": 6,
+     "name": "get_variable_defs"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 2,
+   "alias": "Плащ странника",
+   "calls": 7,
+   "equipped": true,
+   "first_day": "2026-08-13",
+   "known": true,
+   "last_day": "2026-09-29",
+   "name": "Google Workspace Drive",
+   "next_rarity": {
+    "at": 8,
+    "name": "редкая"
+   },
+   "peak_day": "2026-09-29",
+   "peak_rarity": "uncommon",
+   "peak_rarity_name": "необычная",
+   "peak_score": 4.1,
+   "rarity": "uncommon",
+   "rarity_name": "необычная",
+   "score": 3.91,
+   "servers": [
+    "google_workspace"
+   ],
+   "sessions": 6,
+   "slot": "cloak",
+   "tools": [
+    {
+     "calls": 4,
+     "name": "drive_search_files"
+    },
+    {
+     "calls": 3,
+     "name": "drive_read_file"
+    }
+   ],
+   "worn_instead": null
+  },
+  {
+   "affixes": 2,
+   "alias": "Песочные часы",
+   "calls": 9,
+   "equipped": false,
+   "first_day": "2026-08-21",
+   "known": true,
+   "last_day": "2026-09-25",
+   "name": "Google Workspace Calendar",
+   "next_rarity": {
+    "at": 8,
+    "name": "редкая"
+   },
+   "peak_day": "2026-09-25",
+   "peak_rarity": "uncommon",
+   "peak_rarity_name": "необычная",
+   "peak_score": 3.45,
+   "rarity": "uncommon",
+   "rarity_name": "необычная",
+   "score": 3.0,
+   "servers": [
+    "google_workspace"
+   ],
+   "sessions": 5,
+   "slot": "bag",
+   "tools": [
+    {
+     "calls": 6,
+     "name": "calendar_list_events"
+    },
+    {
+     "calls": 3,
+     "name": "calendar_create_event"
+    }
+   ],
+   "worn_instead": null
+  }
+ ],
+ "generated_at": "2026-10-01T12:40:00+03:00",
+ "hero": {
+  "name": "Claude Code"
+ },
+ "lang": "ru",
+ "level": {
+  "counted_turns": 1532,
+  "into": 606,
+  "level": 18,
+  "need": 1076,
+  "xp": 7114,
+  "xp_parts": {
+   "days": 1100,
+   "sessions": 2950,
+   "turns": 3064
+  }
+ },
+ "ranks": [
+  "Новичок",
+  "Ученик",
+  "Подмастерье",
+  "Умелец",
+  "Эксперт",
+  "Мастер",
+  "Грандмастер"
+ ],
+ "rarities": [
+  {
+   "key": "common",
+   "name": "обычная"
+  },
+  {
+   "key": "uncommon",
+   "name": "необычная"
+  },
+  {
+   "key": "rare",
+   "name": "редкая"
+  },
+  {
+   "key": "epic",
+   "name": "эпическая"
+  },
+  {
+   "key": "legendary",
+   "name": "легендарная"
+  }
+ ],
+ "schools": {
+  "alchemist": {
+   "desc": "добывает смысл из данных: запросы, выборки, аналитика",
+   "name": "Алхимик"
+  },
+  "bard": {
+   "desc": "владеет словом: тексты для людей — документы, статьи, письма, отчёты",
+   "name": "Бард"
+  },
+  "engineer": {
+   "desc": "строит и запускает: сборка, релизы, деплой, инфраструктура",
+   "name": "Инженер"
+  },
+  "ranger": {
+   "desc": "идёт по следу: расследования, отладка, инциденты",
+   "name": "Следопыт"
+  },
+  "smith": {
+   "desc": "куёт код: фичи, рефакторинг, тесты",
+   "name": "Кузнец"
+  },
+  "summoner": {
+   "desc": "ведёт свиту: помощники, их поручения и память, обустройство лагеря",
+   "name": "Призыватель"
+  },
+  "wanderer": {
+   "desc": "берётся за всё за пределами разработки: быт, хобби, личные дела",
+   "name": "Странник"
+  }
+ },
+ "skills": [
+  {
+   "alias": "Клеймо мастера",
+   "calls": 39,
+   "first_day": "2026-08-05",
+   "key": "commit",
+   "last_day": "2026-09-30",
+   "name": "commit",
+   "next_rank": {
+    "at": 30,
+    "name": "Мастер"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 4,
+   "peak_rank_name": "Эксперт",
+   "peak_score": 23.54,
+   "rank": 4,
+   "rank_name": "Эксперт",
+   "rusty": false,
+   "school": "smith",
+   "score": 23.0,
+   "sessions": 39
+  },
+  {
+   "alias": "Охота на сбой",
+   "calls": 35,
+   "first_day": "2026-08-04",
+   "key": "systematic-debugging",
+   "last_day": "2026-09-30",
+   "name": "systematic-debugging",
+   "next_rank": {
+    "at": 30,
+    "name": "Мастер"
+   },
+   "peak_day": "2026-09-17",
+   "peak_rank": 4,
+   "peak_rank_name": "Эксперт",
+   "peak_score": 20.56,
+   "rank": 4,
+   "rank_name": "Эксперт",
+   "rusty": false,
+   "school": "ranger",
+   "score": 19.56,
+   "sessions": 35
+  },
+  {
+   "alias": "Утренний сбор",
+   "calls": 20,
+   "first_day": "2026-08-07",
+   "key": "standup",
+   "last_day": "2026-09-30",
+   "name": "standup",
+   "next_rank": {
+    "at": 15,
+    "name": "Эксперт"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 3,
+   "peak_rank_name": "Умелец",
+   "peak_score": 13.69,
+   "rank": 3,
+   "rank_name": "Умелец",
+   "rusty": false,
+   "school": "bard",
+   "score": 13.38,
+   "sessions": 20
+  },
+  {
+   "alias": "Резьба по фасаду",
+   "calls": 17,
+   "first_day": "2026-08-10",
+   "key": "frontend-design",
+   "last_day": "2026-09-30",
+   "name": "frontend-design",
+   "next_rank": {
+    "at": 15,
+    "name": "Эксперт"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 3,
+   "peak_rank_name": "Умелец",
+   "peak_score": 11.32,
+   "rank": 3,
+   "rank_name": "Умелец",
+   "rusty": false,
+   "school": "smith",
+   "score": 11.06,
+   "sessions": 17
+  },
+  {
+   "alias": "Карта похода",
+   "calls": 16,
+   "first_day": "2026-08-21",
+   "key": "writing-plans",
+   "last_day": "2026-10-01",
+   "name": "writing-plans",
+   "next_rank": {
+    "at": 15,
+    "name": "Эксперт"
+   },
+   "peak_day": "2026-10-01",
+   "peak_rank": 3,
+   "peak_rank_name": "Умелец",
+   "peak_score": 10.88,
+   "rank": 3,
+   "rank_name": "Умелец",
+   "rusty": false,
+   "school": "summoner",
+   "score": 10.88,
+   "sessions": 16
+  },
+  {
+   "alias": "Испытание до ковки",
+   "calls": 18,
+   "first_day": "2026-08-04",
+   "key": "test-driven-development",
+   "last_day": "2026-09-29",
+   "name": "test-driven-development",
+   "next_rank": {
+    "at": 15,
+    "name": "Эксперт"
+   },
+   "peak_day": "2026-09-23",
+   "peak_rank": 3,
+   "peak_rank_name": "Умелец",
+   "peak_score": 11.23,
+   "rank": 3,
+   "rank_name": "Умелец",
+   "rusty": false,
+   "school": "smith",
+   "score": 10.29,
+   "sessions": 18
+  },
+  {
+   "alias": "Отправка обоза",
+   "calls": 14,
+   "first_day": "2026-08-06",
+   "key": "commit-push-pr",
+   "last_day": "2026-09-29",
+   "name": "commit-push-pr",
+   "next_rank": {
+    "at": 15,
+    "name": "Эксперт"
+   },
+   "peak_day": "2026-09-29",
+   "peak_rank": 3,
+   "peak_rank_name": "Умелец",
+   "peak_score": 9.33,
+   "rank": 3,
+   "rank_name": "Умелец",
+   "rusty": false,
+   "school": "engineer",
+   "score": 8.91,
+   "sessions": 14
+  },
+  {
+   "alias": "Поднятие знамени",
+   "calls": 13,
+   "first_day": "2026-08-08",
+   "key": "deploy",
+   "last_day": "2026-09-30",
+   "name": "deploy",
+   "next_rank": {
+    "at": 15,
+    "name": "Эксперт"
+   },
+   "peak_day": "2026-09-15",
+   "peak_rank": 3,
+   "peak_rank_name": "Умелец",
+   "peak_score": 8.94,
+   "rank": 3,
+   "rank_name": "Умелец",
+   "rusty": false,
+   "school": "engineer",
+   "score": 8.01,
+   "sessions": 13
+  },
+  {
+   "alias": "Пробный штурм",
+   "calls": 12,
+   "first_day": "2026-08-19",
+   "key": "webapp-testing",
+   "last_day": "2026-09-30",
+   "name": "webapp-testing",
+   "next_rank": {
+    "at": 15,
+    "name": "Эксперт"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 3,
+   "peak_rank_name": "Умелец",
+   "peak_score": 8.2,
+   "rank": 3,
+   "rank_name": "Умелец",
+   "rusty": false,
+   "school": "smith",
+   "score": 8.01,
+   "sessions": 12
+  },
+  {
+   "alias": "Взгляд оружейника",
+   "calls": 12,
+   "first_day": "2026-08-04",
+   "key": "code-review",
+   "last_day": "2026-10-01",
+   "name": "code-review",
+   "next_rank": {
+    "at": 8,
+    "name": "Умелец"
+   },
+   "peak_day": "2026-09-24",
+   "peak_rank": 2,
+   "peak_rank_name": "Подмастерье",
+   "peak_score": 7.09,
+   "rank": 2,
+   "rank_name": "Подмастерье",
+   "rusty": false,
+   "school": "smith",
+   "score": 7.03,
+   "sessions": 12
+  },
+  {
+   "alias": "Круг замыслов",
+   "calls": 11,
+   "first_day": "2026-08-25",
+   "key": "brainstorming",
+   "last_day": "2026-10-01",
+   "name": "brainstorming",
+   "next_rank": {
+    "at": 8,
+    "name": "Умелец"
+   },
+   "peak_day": "2026-10-01",
+   "peak_rank": 2,
+   "peak_rank_name": "Подмастерье",
+   "peak_score": 6.75,
+   "rank": 2,
+   "rank_name": "Подмастерье",
+   "rusty": false,
+   "school": "summoner",
+   "score": 6.75,
+   "sessions": 11
+  },
+  {
+   "alias": "Шлифовка клинка",
+   "calls": 7,
+   "first_day": "2026-08-04",
+   "key": "simplify",
+   "last_day": "2026-09-30",
+   "name": "simplify",
+   "next_rank": {
+    "at": 8,
+    "name": "Умелец"
+   },
+   "peak_day": "2026-09-30",
+   "peak_rank": 2,
+   "peak_rank_name": "Подмастерье",
+   "peak_score": 4.98,
+   "rank": 2,
+   "rank_name": "Подмастерье",
+   "rusty": false,
+   "school": "smith",
+   "score": 4.86,
+   "sessions": 7
+  },
+  {
+   "alias": "Суд мастеров",
+   "calls": 9,
+   "first_day": "2026-08-11",
+   "key": "requesting-code-review",
+   "last_day": "2026-10-01",
+   "name": "requesting-code-review",
+   "next_rank": {
+    "at": 8,
+    "name": "Умелец"
+   },
+   "peak_day": "2026-09-19",
+   "peak_rank": 2,
+   "peak_rank_name": "Подмастерье",
+   "peak_score": 5.06,
+   "rank": 2,
+   "rank_name": "Подмастерье",
+   "rusty": false,
+   "school": "smith",
+   "score": 4.83,
+   "sessions": 9
+  },
+  {
+   "alias": "Поход по карте",
+   "calls": 6,
+   "first_day": "2026-08-06",
+   "key": "executing-plans",
+   "last_day": "2026-09-28",
+   "name": "executing-plans",
+   "next_rank": {
+    "at": 4,
+    "name": "Подмастерье"
+   },
+   "peak_day": "2026-09-06",
+   "peak_rank": 2,
+   "peak_rank_name": "Подмастерье",
+   "peak_score": 4.03,
+   "rank": 1,
+   "rank_name": "Ученик",
+   "rusty": true,
+   "school": "summoner",
+   "score": 3.19,
+   "sessions": 6
+  },
+  {
+   "alias": "Таблицы алхимика",
+   "calls": 5,
+   "first_day": "2026-08-11",
+   "key": "xlsx",
+   "last_day": "2026-09-29",
+   "name": "xlsx",
+   "next_rank": {
+    "at": 4,
+    "name": "Подмастерье"
+   },
+   "peak_day": "2026-09-29",
+   "peak_rank": 1,
+   "peak_rank_name": "Ученик",
+   "peak_score": 3.29,
+   "rank": 1,
+   "rank_name": "Ученик",
+   "rusty": false,
+   "school": "alchemist",
+   "score": 3.14,
+   "sessions": 5
+  },
+  {
+   "alias": "Настройка шатра",
+   "calls": 7,
+   "first_day": "2026-08-04",
+   "key": "update-config",
+   "last_day": "2026-09-11",
+   "name": "update-config",
+   "next_rank": {
+    "at": 4,
+    "name": "Подмастерье"
+   },
+   "peak_day": "2026-09-11",
+   "peak_rank": 2,
+   "peak_rank_name": "Подмастерье",
+   "peak_score": 4.73,
+   "rank": 1,
+   "rank_name": "Ученик",
+   "rusty": true,
+   "school": "summoner",
+   "score": 2.98,
+   "sessions": 7
+  },
+  {
+   "alias": "Параллельные мастерские",
+   "calls": 4,
+   "first_day": "2026-09-03",
+   "key": "using-git-worktrees",
+   "last_day": "2026-09-26",
+   "name": "using-git-worktrees",
+   "next_rank": {
+    "at": 4,
+    "name": "Подмастерье"
+   },
+   "peak_day": "2026-09-26",
+   "peak_rank": 1,
+   "peak_rank_name": "Ученик",
+   "peak_score": 3.14,
+   "rank": 1,
+   "rank_name": "Ученик",
+   "rusty": false,
+   "school": "engineer",
+   "score": 2.8,
+   "sessions": 4
+  },
+  {
+   "alias": "Создатель приёмов",
+   "calls": 3,
+   "first_day": "2026-09-08",
+   "key": "skill-creator",
+   "last_day": "2026-09-23",
+   "name": "skill-creator",
+   "next_rank": {
+    "at": 4,
+    "name": "Подмастерье"
+   },
+   "peak_day": "2026-09-23",
+   "peak_rank": 1,
+   "peak_rank_name": "Ученик",
+   "peak_score": 2.54,
+   "rank": 1,
+   "rank_name": "Ученик",
+   "rusty": false,
+   "school": "summoner",
+   "score": 2.11,
+   "sessions": 3
+  },
+  {
+   "alias": "Ковка новинки",
+   "calls": 6,
+   "first_day": "2026-08-04",
+   "key": "feature-dev",
+   "last_day": "2026-09-01",
+   "name": "feature-dev",
+   "next_rank": {
+    "at": 4,
+    "name": "Подмастерье"
+   },
+   "peak_day": "2026-09-01",
+   "peak_rank": 2,
+   "peak_rank_name": "Подмастерье",
+   "peak_score": 4.07,
+   "rank": 1,
+   "rank_name": "Ученик",
+   "rusty": true,
+   "school": "smith",
+   "score": 2.03,
+   "sessions": 6
+  },
+  {
+   "alias": "Свита исполнителей",
+   "calls": 2,
+   "first_day": "2026-09-25",
+   "key": "subagent-driven-development",
+   "last_day": "2026-09-25",
+   "name": "subagent-driven-development",
+   "next_rank": {
+    "at": 2,
+    "name": "Ученик"
+   },
+   "peak_day": "2026-09-25",
+   "peak_rank": 1,
+   "peak_rank_name": "Ученик",
+   "peak_score": 2.0,
+   "rank": 0,
+   "rank_name": "Новичок",
+   "rusty": true,
+   "school": "summoner",
+   "score": 1.74,
+   "sessions": 2
+  },
+  {
+   "alias": "Чтение пергаментов",
+   "calls": 2,
+   "first_day": "2026-09-22",
+   "key": "pdf",
+   "last_day": "2026-09-25",
+   "name": "pdf",
+   "next_rank": {
+    "at": 2,
+    "name": "Ученик"
+   },
+   "peak_day": "2026-09-25",
+   "peak_rank": 0,
+   "peak_rank_name": "Новичок",
+   "peak_score": 1.93,
+   "rank": 0,
+   "rank_name": "Новичок",
+   "rusty": false,
+   "school": "bard",
+   "score": 1.68,
+   "sessions": 2
+  },
+  {
+   "alias": "Карта странствий",
+   "calls": 2,
+   "first_day": "2026-08-20",
+   "key": "trip-planner",
+   "last_day": "2026-09-22",
+   "name": "trip-planner",
+   "next_rank": {
+    "at": 2,
+    "name": "Ученик"
+   },
+   "peak_day": "2026-09-22",
+   "peak_rank": 0,
+   "peak_rank_name": "Новичок",
+   "peak_score": 1.47,
+   "rank": 0,
+   "rank_name": "Новичок",
+   "rusty": false,
+   "school": "wanderer",
+   "score": 1.19,
+   "sessions": 2
+  },
+  {
+   "alias": "Сотворение артефактов",
+   "calls": 1,
+   "first_day": "2026-09-28",
+   "key": "mcp-builder",
+   "last_day": "2026-09-28",
+   "name": "mcp-builder",
+   "next_rank": {
+    "at": 2,
+    "name": "Ученик"
+   },
+   "peak_day": "2026-09-28",
+   "peak_rank": 0,
+   "peak_rank_name": "Новичок",
+   "peak_score": 1.0,
+   "rank": 0,
+   "rank_name": "Новичок",
+   "rusty": false,
+   "school": "summoner",
+   "score": 0.93,
+   "sessions": 1
+  },
+  {
+   "alias": "Связь с оракулом",
+   "calls": 1,
+   "first_day": "2026-08-29",
+   "key": "claude-api",
+   "last_day": "2026-08-29",
+   "name": "claude-api",
+   "next_rank": {
+    "at": 2,
+    "name": "Ученик"
+   },
+   "peak_day": "2026-08-29",
+   "peak_rank": 0,
+   "peak_rank_name": "Новичок",
+   "peak_score": 1.0,
+   "rank": 0,
+   "rank_name": "Новичок",
+   "rusty": false,
+   "school": "smith",
+   "score": 0.47,
+   "sessions": 1
+  },
+  {
+   "alias": "Караван в лавки",
+   "calls": 1,
+   "first_day": "2026-08-05",
+   "key": "mobile-release",
+   "last_day": "2026-08-05",
+   "name": "mobile-release",
+   "next_rank": {
+    "at": 2,
+    "name": "Ученик"
+   },
+   "peak_day": "2026-08-05",
+   "peak_rank": 0,
+   "peak_rank_name": "Новичок",
+   "peak_score": 1.0,
+   "rank": 0,
+   "rank_name": "Новичок",
+   "rusty": false,
+   "school": "engineer",
+   "score": 0.27,
+   "sessions": 1
+  }
+ ],
+ "stats": {
+  "active_days": 55,
+  "all_sessions": 304,
+  "first_day": "2026-08-04",
+  "hero_hours": 219.6,
+  "human_turns": 1735,
+  "last_day": "2026-10-01",
+  "locations": 9,
+  "recent": {
+   "active_days": 31,
+   "hours": 152.8,
+   "human_turns": 1212,
+   "sessions": 193
+  },
+  "sessions": 295,
+  "tool_calls": 27127,
+  "top_places": [
+   {
+    "name": "shop-api",
+    "sessions": 118
+   },
+   {
+    "name": "web-app",
+    "sessions": 83
+   },
+   {
+    "name": "infra",
+    "sessions": 26
+   },
+   {
+    "name": "data-notebooks",
+    "sessions": 23
+   },
+   {
+    "name": "docs-site",
+    "sessions": 10
+   }
+  ]
+ },
+ "title": "Марафонец",
+ "title_key": "marathon",
+ "treasury": {
+  "camp": {
+   "count": 30,
+   "max": 4,
+   "name": "Живёт у костра II",
+   "next": {
+    "at": 60,
+    "name": "Живёт у костра III"
+   },
+   "sessions": 13,
+   "tier": 3
+  },
+  "gold": {
+   "dearest": [
+    {
+     "cache_read": 400753181,
+     "day": "2026-09-16",
+     "place": "shop-api",
+     "tokens": 403874105,
+     "units": 45353997
+    },
+    {
+     "cache_read": 392716576,
+     "day": "2026-09-04",
+     "place": "shop-api",
+     "tokens": 395793740,
+     "units": 44478274
+    },
+    {
+     "cache_read": 365252914,
+     "day": "2026-09-06",
+     "place": "shop-api",
+     "tokens": 368285537,
+     "units": 41638287
+    }
+   ],
+   "name": "Сокровищница",
+   "next": {
+    "at": 1000000000.0,
+    "name": "Драконья казна"
+   },
+   "sessions": 202,
+   "tier": 4,
+   "tokens": {
+    "cache_read": 4493322166,
+    "cache_write": 45076165,
+    "input": 144173,
+    "output": 5997795
+   },
+   "units": 535810571
+  }
+ },
+ "window_days": 30
+}

@@ -1,0 +1,15 @@
+{
+  "name": "harness-rpg",
+  "description": "The harness-rpg skill for Claude Code: your Claude Code history as a pixel-art RPG hero.",
+  "owner": {
+    "name": "Dmitry Gerasimov",
+    "url": "https://github.com/DmitryGerasimov"
+  },
+  "plugins": [
+    {
+      "name": "harness-rpg",
+      "source": "./skill",
+      "description": "Turns your Claude Code history into a pixel-art RPG hero, with an insights mode about your real work."
+    }
+  ]
+}
