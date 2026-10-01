@@ -31,6 +31,32 @@ jobs:
           cp data/en/character.html site/index.html
           cp data/character.html site/ru/index.html
 
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      # The README shows the findings panel of the English demo; it is snapped here, so it never goes stale.
+      - name: Snap the findings
+        run: |
+          pip install --quiet playwright==1.63.0
+          python - <<'EOF'
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+
+          url = Path('site/index.html').resolve().as_uri() + '#insights'
+          with sync_playwright() as p:
+              browser = p.chromium.launch(channel='chrome')
+              page = browser.new_page(viewport={'width': 880, 'height': 900}, device_scale_factor=2)
+              page.goto(url)
+              box = page.locator('section.panel.neon').bounding_box()
+              margin = 12
+              page.screenshot(path='site/insights.png', full_page=True, clip={
+                  'x': box['x'] - margin, 'y': box['y'] - margin,
+                  'width': box['width'] + 2 * margin, 'height': box['height'] + 2 * margin,
+              })
+              browser.close()
+          EOF
+
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site

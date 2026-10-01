@@ -14,6 +14,11 @@ the hero's page in pixel art, with an archive of past snapshots and an insights 
 after two months of work, [in insights mode](https://dmitrygerasimov.github.io/harness-rpg/#insights) too, and
 [in Russian](https://dmitrygerasimov.github.io/harness-rpg/ru/).
 
+**Don't skip your insights.** The hero is the fun part; the insights are the useful one — what your last
+30 days of work actually look like, and what to change:
+
+[![The findings of the demo hero in insights mode](https://dmitrygerasimov.github.io/harness-rpg/insights.png)](https://dmitrygerasimov.github.io/harness-rpg/#insights)
+
 What counts is use, not installation: a skill or an MCP server that is installed but never called gives
 the hero nothing.
 
